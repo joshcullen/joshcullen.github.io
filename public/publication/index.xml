@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Joshua A Cullen</title>
+    <link>/publication/</link>
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright><lastBuildDate>Tue, 12 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Publications</title>
+      <link>/publication/</link>
+    </image>
+    
+    <item>
+      <title>Do sharks exhibit heterodonty by tooth position and over ontogeny? A comparison using elliptic Fourier analysis</title>
+      <link>/publication/shark-tooth-morphology/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/shark-tooth-morphology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integration of multi-tissue PAH and PCB burdens with biomarker activity in three coastal shark species from the northwestern Gulf of Mexico</title>
+      <link>/publication/shark-body-burdens/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/shark-body-burdens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>In silico predicted transcriptional regulatory control of steroidogenesis in spawning female fathead minnows (Pimephales promelas)</title>
+      <link>/publication/theoretical-tf-model/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/theoretical-tf-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large dugong (Dugong dugon) aggregations persist in coastal Qatar</title>
+      <link>/publication/dugong-aggregation/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/dugong-aggregation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evolutionary Novelty versus Exaptation; Oral Kinematics in Feeding versus Climbing in the Waterfall-Climbing Hawaiian Goby Sicyopterus stimpsoni</title>
+      <link>/publication/goby-oral-kinematics/</link>
+      <pubDate>Fri, 04 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/goby-oral-kinematics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

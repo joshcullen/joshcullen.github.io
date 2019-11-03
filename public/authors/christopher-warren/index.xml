@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christopher Warren | Joshua A Cullen</title>
+    <link>/authors/christopher-warren/</link>
+      <atom:link href="/authors/christopher-warren/index.xml" rel="self" type="application/rss+xml" />
+    <description>Christopher Warren</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright><lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Christopher Warren</title>
+      <link>/authors/christopher-warren/</link>
+    </image>
+    
+    <item>
+      <title>Large dugong (Dugong dugon) aggregations persist in coastal Qatar</title>
+      <link>/publication/dugong-aggregation/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/dugong-aggregation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
