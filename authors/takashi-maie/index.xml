@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Takashi Maie | Joshua A Cullen</title>
+    <link>https://joshcullen.github.io/authors/takashi-maie/</link>
+      <atom:link href="https://joshcullen.github.io/authors/takashi-maie/index.xml" rel="self" type="application/rss+xml" />
+    <description>Takashi Maie</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright><lastBuildDate>Fri, 04 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://joshcullen.github.io/img/icon-192.png</url>
+      <title>Takashi Maie</title>
+      <link>https://joshcullen.github.io/authors/takashi-maie/</link>
+    </image>
+    
+    <item>
+      <title>Evolutionary Novelty versus Exaptation; Oral Kinematics in Feeding versus Climbing in the Waterfall-Climbing Hawaiian Goby Sicyopterus stimpsoni</title>
+      <link>https://joshcullen.github.io/publication/goby-oral-kinematics/</link>
+      <pubDate>Fri, 04 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/publication/goby-oral-kinematics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

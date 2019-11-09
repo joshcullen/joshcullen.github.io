@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David Hala | Joshua A Cullen</title>
+    <link>https://joshcullen.github.io/authors/david-hala/</link>
+      <atom:link href="https://joshcullen.github.io/authors/david-hala/index.xml" rel="self" type="application/rss+xml" />
+    <description>David Hala</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright><lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://joshcullen.github.io/img/icon-192.png</url>
+      <title>David Hala</title>
+      <link>https://joshcullen.github.io/authors/david-hala/</link>
+    </image>
+    
+    <item>
+      <title>Integration of multi-tissue PAH and PCB burdens with biomarker activity in three coastal shark species from the northwestern Gulf of Mexico</title>
+      <link>https://joshcullen.github.io/publication/shark-body-burdens/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/publication/shark-body-burdens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>In silico predicted transcriptional regulatory control of steroidogenesis in spawning female fathead minnows (Pimephales promelas)</title>
+      <link>https://joshcullen.github.io/publication/theoretical-tf-model/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/publication/theoretical-tf-model/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
