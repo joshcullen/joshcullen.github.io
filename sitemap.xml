@@ -3,33 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://joshcullen.github.io/courses/example/example1/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://joshcullen.github.io/courses/example/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://joshcullen.github.io/courses/example/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://joshcullen.github.io/talk/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://joshcullen.github.io/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://joshcullen.github.io/talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -245,10 +220,6 @@
   <url>
     <loc>https://joshcullen.github.io/authors/takashi-maie/</loc>
     <lastmod>2013-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://joshcullen.github.io/courses/</loc>
   </url>
   
 </urlset>
