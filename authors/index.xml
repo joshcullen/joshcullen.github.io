@@ -29,17 +29,6 @@
     </item>
     
     <item>
-      <title></title>
-      <link>https://joshcullen.github.io/authors/admin/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://joshcullen.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a postdoc in &lt;a href=&#34;http://denisvalle.weebly.com&#34; target=&#34;_blank&#34;&gt;Denis Valle&amp;rsquo;s lab&lt;/a&gt; developing new Bayesian methods to identify underlying behavioral states from animal movement. In general, my research takes an integrative approach to understand how animals interact with their environment.&lt;/p&gt;
-
-&lt;p&gt;This includes using different types of data (morphological, performance, diet, toxicology, movement) to model resource use within a single species, how this may change as it gets older/larger, and how this compares against potential competitors. I am interested in using climate change projections to evaluate the ecological niche of species and how this may impact food web dynamics.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>David Hala</title>
       <link>https://joshcullen.github.io/authors/david-hala/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
@@ -117,6 +106,17 @@
       <pubDate>Fri, 04 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://joshcullen.github.io/authors/takashi-maie/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://joshcullen.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am a postdoc in &lt;a href=&#34;http://denisvalle.weebly.com&#34; target=&#34;_blank&#34;&gt;Denis Valle&amp;rsquo;s lab&lt;/a&gt; developing new Bayesian methods to identify underlying behavioral states from animal movement. In general, my research takes an integrative approach to understand how animals interact with their environment.&lt;/p&gt;
+
+&lt;p&gt;This includes using different types of data (morphological, performance, diet, toxicology, movement) to model resource use within a single species, how this may change as it gets older/larger, and how this compares against potential competitors. I am interested in using climate change projections to evaluate the ecological niche of species and how this may impact food web dynamics.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

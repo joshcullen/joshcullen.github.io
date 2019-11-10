@@ -43,16 +43,6 @@
   </url>
   
   <url>
-    <loc>https://joshcullen.github.io/post/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://joshcullen.github.io/post/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://joshcullen.github.io/publication_types/2/</loc>
     <lastmod>2019-03-12T00:00:00+00:00</lastmod>
   </url>
@@ -64,7 +54,7 @@
   
   <url>
     <loc>https://joshcullen.github.io/authors/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -90,16 +80,6 @@
   <url>
     <loc>https://joshcullen.github.io/tags/source-themes/</loc>
     <lastmod>2019-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://joshcullen.github.io/authors/admin/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://joshcullen.github.io/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -163,51 +143,6 @@
   </url>
   
   <url>
-    <loc>https://joshcullen.github.io/tags/academic/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://joshcullen.github.io/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://joshcullen.github.io/categories/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://joshcullen.github.io/categories/demo/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://joshcullen.github.io/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://joshcullen.github.io/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://joshcullen.github.io/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://joshcullen.github.io/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://joshcullen.github.io/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://joshcullen.github.io/publication/goby-oral-kinematics/</loc>
     <lastmod>2013-01-04T00:00:00+00:00</lastmod>
   </url>
@@ -225,6 +160,14 @@
   <url>
     <loc>https://joshcullen.github.io/authors/takashi-maie/</loc>
     <lastmod>2013-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://joshcullen.github.io/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://joshcullen.github.io/categories/</loc>
   </url>
   
 </urlset>

@@ -5,28 +5,12 @@
     <link>https://joshcullen.github.io/categories/</link>
       <atom:link href="https://joshcullen.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright>
     <image>
       <url>https://joshcullen.github.io/img/icon-192.png</url>
       <title>Categories</title>
       <link>https://joshcullen.github.io/categories/</link>
     </image>
-    
-    <item>
-      <title>Demo</title>
-      <link>https://joshcullen.github.io/categories/demo/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://joshcullen.github.io/categories/demo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>https://joshcullen.github.io/categories/r/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>https://joshcullen.github.io/categories/r/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
