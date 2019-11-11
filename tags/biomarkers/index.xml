@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Biomarkers | Joshua A Cullen</title>
+    <link>https://joshcullen.github.io/tags/biomarkers/</link>
+      <atom:link href="https://joshcullen.github.io/tags/biomarkers/index.xml" rel="self" type="application/rss+xml" />
+    <description>Biomarkers</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright><lastBuildDate>Sun, 10 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://joshcullen.github.io/img/icon-192.png</url>
+      <title>Biomarkers</title>
+      <link>https://joshcullen.github.io/tags/biomarkers/</link>
+    </image>
+    
+    <item>
+      <title>Integration of Enzymatic Biomarkers and Concentrations of Organic Pollutants</title>
+      <link>https://joshcullen.github.io/project/shark-body-burdens/</link>
+      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/project/shark-body-burdens/</guid>
+      <description>&lt;p&gt;Under construction.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
