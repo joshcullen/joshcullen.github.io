@@ -5,12 +5,21 @@
     <link>https://joshcullen.github.io/project/</link>
       <atom:link href="https://joshcullen.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright><lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright><lastBuildDate>Sun, 10 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://joshcullen.github.io/img/icon-192.png</url>
       <title>Projects</title>
       <link>https://joshcullen.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Scaling of Bite Force in Sharks Impacts Their Ecological Niche</title>
+      <link>https://joshcullen.github.io/project/shark-feeding-and-diet/</link>
+      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/project/shark-feeding-and-diet/</guid>
+      <description>&lt;p&gt;Under construction.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>New Model to Estimate Animal Behavior from Telemetry Data</title>

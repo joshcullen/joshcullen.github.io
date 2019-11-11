@@ -5,12 +5,52 @@
     <link>https://joshcullen.github.io/tags/</link>
       <atom:link href="https://joshcullen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright><lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright><lastBuildDate>Sun, 10 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://joshcullen.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://joshcullen.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>Allometric Scaling</title>
+      <link>https://joshcullen.github.io/tags/allometric-scaling/</link>
+      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/tags/allometric-scaling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bite Force</title>
+      <link>https://joshcullen.github.io/tags/bite-force/</link>
+      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/tags/bite-force/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparative Biomechanics</title>
+      <link>https://joshcullen.github.io/tags/comparative-biomechanics/</link>
+      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/tags/comparative-biomechanics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sharks</title>
+      <link>https://joshcullen.github.io/tags/sharks/</link>
+      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/tags/sharks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stable Isotope Analysis</title>
+      <link>https://joshcullen.github.io/tags/stable-isotope-analysis/</link>
+      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/tags/stable-isotope-analysis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bayesian Statistics</title>
@@ -33,6 +73,14 @@
       <link>https://joshcullen.github.io/tags/quantitative-ecology/</link>
       <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://joshcullen.github.io/tags/quantitative-ecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sea Turtles</title>
+      <link>https://joshcullen.github.io/tags/sea-turtles/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/tags/sea-turtles/</guid>
       <description></description>
     </item>
     
