@@ -5,7 +5,7 @@
     <link>https://joshcullen.github.io/tags/sea-turtles/</link>
       <atom:link href="https://joshcullen.github.io/tags/sea-turtles/index.xml" rel="self" type="application/rss+xml" />
     <description>Sea Turtles</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright><lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright><lastBuildDate>Fri, 08 Mar 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://joshcullen.github.io/img/icon-192.png</url>
       <title>Sea Turtles</title>
@@ -13,11 +13,13 @@
     </image>
     
     <item>
-      <title>Space Use and Habitat Preference of Sea Turtles in the Arabian Gulf</title>
+      <title>Space-Use and Habitat Preference of Sea Turtles in the Arabian Gulf</title>
       <link>https://joshcullen.github.io/project/sea-turtle-movement/</link>
-      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       <guid>https://joshcullen.github.io/project/sea-turtle-movement/</guid>
-      <description>&lt;p&gt;Under construction.&lt;/p&gt;
+      <description>&lt;p&gt;Climate change is increasingly forcing organisms to alter their movement and behavioral patterns to meet the new physical demands within their historic ranges. For species that are already listed as endangered, such as many sea turtles, these additional forms of stress may contribute to declining trends in population size. Populations of sea turtles in the Arabian Gulf may be among the first to feel the strongest effects of climate change since this semi-enclosed basin is one of the warmest and most saline water bodies world-wide.&lt;/p&gt;
+
+&lt;p&gt;This study evaluates the behavioral patterns and space-use of hawksbill (&lt;em&gt;Eretmochelys imbricata&lt;/em&gt;) and green turtles (&lt;em&gt;Chelonia mydas&lt;/em&gt;) within the Arabian Gulf tagged off the coast of Qatar. This study also evaluates drivers of turtle movement and makes predictions on habitat suitability within the Gulf. As sea surface temperature becomes warmer for a longer duration each year, turtles will likely need to modify movement and behavioral patterns of habitat use in order to cope with this thermal stress.&lt;/p&gt;
 </description>
     </item>
     
