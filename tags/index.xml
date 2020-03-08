@@ -5,12 +5,36 @@
     <link>https://joshcullen.github.io/tags/</link>
       <atom:link href="https://joshcullen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright><lastBuildDate>Sat, 07 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright><lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://joshcullen.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://joshcullen.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>Bayesian Statistics</title>
+      <link>https://joshcullen.github.io/tags/bayesian-statistics/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/tags/bayesian-statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Movement Ecology</title>
+      <link>https://joshcullen.github.io/tags/movement-ecology/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/tags/movement-ecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantitative Ecology</title>
+      <link>https://joshcullen.github.io/tags/quantitative-ecology/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/tags/quantitative-ecology/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Allometric Scaling</title>
@@ -89,30 +113,6 @@
       <link>https://joshcullen.github.io/tags/stable-isotope-analysis/</link>
       <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://joshcullen.github.io/tags/stable-isotope-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bayesian Statistics</title>
-      <link>https://joshcullen.github.io/tags/bayesian-statistics/</link>
-      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://joshcullen.github.io/tags/bayesian-statistics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Movement Ecology</title>
-      <link>https://joshcullen.github.io/tags/movement-ecology/</link>
-      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://joshcullen.github.io/tags/movement-ecology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quantitative Ecology</title>
-      <link>https://joshcullen.github.io/tags/quantitative-ecology/</link>
-      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://joshcullen.github.io/tags/quantitative-ecology/</guid>
       <description></description>
     </item>
     

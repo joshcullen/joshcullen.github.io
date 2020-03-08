@@ -5,7 +5,7 @@
     <link>https://joshcullen.github.io/tags/movement-ecology/</link>
       <atom:link href="https://joshcullen.github.io/tags/movement-ecology/index.xml" rel="self" type="application/rss+xml" />
     <description>Movement Ecology</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright><lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Josh Cullen</copyright><lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://joshcullen.github.io/img/icon-192.png</url>
       <title>Movement Ecology</title>
@@ -13,11 +13,13 @@
     </image>
     
     <item>
-      <title>New Model to Estimate Animal Behavior from Telemetry Data</title>
+      <title>New Bayesian Methods to Estimate Animal Behavior and Space-Use</title>
       <link>https://joshcullen.github.io/project/bayesian-behavior-modeling/</link>
-      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://joshcullen.github.io/project/bayesian-behavior-modeling/</guid>
-      <description>&lt;p&gt;Under construction.&lt;/p&gt;
+      <description>&lt;p&gt;Movement decisions of an organism can impact habitat use, foraging strategies, reproductive success, and survival, which ultimately affects population dynamics of a species. The study of animal movement has increased in the past few decades, along with the increased capacity of telemetry devices to record locations with greater accuracy and longer durations. There are a wide variety of methods that exist to evaluate where the animal is going and what they are doing, but many of these methods have limitations for their use and inference. Many methods used to analyze space-use do not provide a way to evaluate temporal patterns, while others may be biased to locations of initial tagging or do not sufficiently capture the areas most used by a set of conspecifics. Additionally, many recent studies that estimate behavioral changes along an animal&amp;rsquo;s trajectory often use a form of segmentation model or a mechanistic movement model, which either are limited in the scope of their capacity or rely on many underlying assumptions, respectively.&lt;/p&gt;
+
+&lt;p&gt;We have developed new methods within a Bayesian framework that seek to address many of the limitations of these existing methods for the analysis of animal space-use and behavior estimation. These methods could be classified as a segmentation model that provides either a mixture or mixed-membership model to cluster the time segments from each of the individuals that were tagged. This results in population-level estimates of behavior and space-use, which is derived in a way that relies on fewer assumptions, is flexible, and generalizable.&lt;/p&gt;
 </description>
     </item>
     
