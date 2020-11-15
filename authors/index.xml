@@ -5,7 +5,7 @@
     <link>https://joshcullen.github.io/authors/</link>
       <atom:link href="https://joshcullen.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Josh Cullen</copyright><lastBuildDate>Tue, 12 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Josh Cullen</copyright><lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://joshcullen.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title>&lt;b&gt;Joshua A Cullen&lt;/b&gt;</title>
       <link>https://joshcullen.github.io/authors/bjoshua-a-cullen/b/</link>
-      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://joshcullen.github.io/authors/bjoshua-a-cullen/b/</guid>
       <description></description>
     </item>
@@ -23,16 +23,120 @@
     <item>
       <title>Christopher D Marshall</title>
       <link>https://joshcullen.github.io/authors/christopher-d-marshall/</link>
-      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://joshcullen.github.io/authors/christopher-d-marshall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mehsin Al Ansi</title>
+      <link>https://joshcullen.github.io/authors/mehsin-al-ansi/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/authors/mehsin-al-ansi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mohamed AR Abdel-Moati</title>
+      <link>https://joshcullen.github.io/authors/mohamed-ar-abdel-moati/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/authors/mohamed-ar-abdel-moati/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shafeeq Hamza</title>
+      <link>https://joshcullen.github.io/authors/shafeeq-hamza/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/authors/shafeeq-hamza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&lt;b&gt;Joshua Cullen&lt;/b&gt;</title>
+      <link>https://joshcullen.github.io/authors/bjoshua-cullen/b/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/authors/bjoshua-cullen/b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anthony H Knap</title>
+      <link>https://joshcullen.github.io/authors/anthony-h-knap/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/authors/anthony-h-knap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Antoinetta Quigg</title>
+      <link>https://joshcullen.github.io/authors/antoinetta-quigg/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/authors/antoinetta-quigg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chen Xu</title>
+      <link>https://joshcullen.github.io/authors/chen-xu/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/authors/chen-xu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>David Hala</title>
       <link>https://joshcullen.github.io/authors/david-hala/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://joshcullen.github.io/authors/david-hala/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dawei Shi</title>
+      <link>https://joshcullen.github.io/authors/dawei-shi/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/authors/dawei-shi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hernando P Bacosa</title>
+      <link>https://joshcullen.github.io/authors/hernando-p-bacosa/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/authors/hernando-p-bacosa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kathleen A Schwehr</title>
+      <link>https://joshcullen.github.io/authors/kathleen-a-schwehr/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/authors/kathleen-a-schwehr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manoj Kamalanathan</title>
+      <link>https://joshcullen.github.io/authors/manoj-kamalanathan/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/authors/manoj-kamalanathan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peter H Santschi</title>
+      <link>https://joshcullen.github.io/authors/peter-h-santschi/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/authors/peter-h-santschi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terry L Wade</title>
+      <link>https://joshcullen.github.io/authors/terry-l-wade/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/authors/terry-l-wade/</guid>
       <description></description>
     </item>
     
@@ -77,14 +181,6 @@
     </item>
     
     <item>
-      <title>Mehsin Al Ansi</title>
-      <link>https://joshcullen.github.io/authors/mehsin-al-ansi/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://joshcullen.github.io/authors/mehsin-al-ansi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Heiko L Schoenfuss</title>
       <link>https://joshcullen.github.io/authors/heiko-l-schoenfuss/</link>
       <pubDate>Fri, 04 Jan 2013 00:00:00 +0000</pubDate>
@@ -113,9 +209,9 @@
       <link>https://joshcullen.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://joshcullen.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a postdoc in &lt;a href=&#34;http://denisvalle.weebly.com&#34; target=&#34;_blank&#34;&gt;Denis Valle&amp;rsquo;s lab&lt;/a&gt; developing new Bayesian methods to identify underlying behavioral states from animal movement. In general, my research takes an integrative approach to understand how animals interact with their environment.&lt;/p&gt;
+      <description>&lt;p&gt;I am a postdoc in &lt;a href=&#34;http://denisvalle.weebly.com&#34; target=&#34;_blank&#34;&gt;Denis Valle&amp;rsquo;s lab&lt;/a&gt; developing new Bayesian methods to identify underlying patterns in animal movement. In general, my research takes an integrative approach to understand how animals interact with their environment.&lt;/p&gt;
 
-&lt;p&gt;This includes using different types of data (morphological, performance, diet, toxicology, movement) to model resource use within a single species, how this may change as it gets older/larger, and how this compares against potential competitors. I am interested in using climate change projections to evaluate the ecological niche of species and how this may impact food web dynamics.&lt;/p&gt;
+&lt;p&gt;This includes using different types of data (morphological, performance, diet, toxicology, movement) to model resource use within a single species, how this may change as it gets older/larger, and how this compares against potential competitors. By incorporating multiple lines of evidence, we can develop a more complete understanding of an animal&amp;rsquo;s ecology and predict how it will respond to anthropogenic pressure and climate change.&lt;/p&gt;
 </description>
     </item>
     

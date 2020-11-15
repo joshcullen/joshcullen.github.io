@@ -5,12 +5,28 @@
     <link>https://joshcullen.github.io/publication/</link>
       <atom:link href="https://joshcullen.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Josh Cullen</copyright><lastBuildDate>Tue, 12 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Josh Cullen</copyright><lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://joshcullen.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://joshcullen.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Environmental drivers of habitat use by hawksbill turtles (Eretmochelys imbricata) in the Arabian Gulf (Qatar)</title>
+      <link>https://joshcullen.github.io/publication/hawksbill-movement-patterns/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/publication/hawksbill-movement-patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marine snow aggregates are enriched in polycyclic aromatic hydrocarbons (PAHs) in oil contaminated waters: Insights from a mesocosm study</title>
+      <link>https://joshcullen.github.io/publication/marine-snow-pahs/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/publication/marine-snow-pahs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Do sharks exhibit heterodonty by tooth position and over ontogeny? A comparison using elliptic Fourier analysis</title>
