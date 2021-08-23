@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ecotoxicology | Josh Cullen</title>
+    <link>https://joshcullen.github.io/tag/ecotoxicology/</link>
+      <atom:link href="https://joshcullen.github.io/tag/ecotoxicology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ecotoxicology</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Josh Cullen</copyright><lastBuildDate>Sat, 21 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://joshcullen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Ecotoxicology</title>
+      <link>https://joshcullen.github.io/tag/ecotoxicology/</link>
+    </image>
+    
+    <item>
+      <title>Bioaccumulation of Organic Pollutants in Marine Organisms</title>
+      <link>https://joshcullen.github.io/project/shark-body-burdens/</link>
+      <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/project/shark-body-burdens/</guid>
+      <description>&lt;p&gt;Through multiple routes of introduction, aquatic environments are the ultimate sink for many organic contaminants. Of these compounds, polycyclic aromatic hydrocarbons (PAHs) and polychlorinated biphenyls (PCBs) are among the most ubiquitous. Previous studies in wildlife have  demonstrated a variety of impacts due to specific classes of these compounds, including immunosuppression, endocrine disruption, reproductive impairment, genotoxicity, and metabolic disruption.&lt;/p&gt;
+&lt;p&gt;Sharks may be particularly susceptible to contaminant accumulation and exposure since they have large, fatty livers that can serve as a large reservoir for the accumulation of organic contaminants, in addition to their biomagnification as contaminant concentrations increase up the food web. Additionally, organic pollutants may adsorb to organic material such as marine snow and phytoplankton, which can be transported to the benthos where even deep-sea organisms may experience relatively high levels of exposure and accumulation.&lt;/p&gt;
+&lt;p&gt;Previous work has involved &lt;a href=&#34;https://joshcullen.github.io/publication/shark-body-burdens/&#34;&gt;coastal shark species&lt;/a&gt;, &lt;a href=&#34;https://joshcullen.github.io/publication/deep-sea-burdens/&#34;&gt;deep-sea invertebrates&lt;/a&gt;, and &lt;a href=&#34;https://joshcullen.github.io/publication/marine-snow-pahs/&#34;&gt;phytoplankton&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Movement Ecology | Josh Cullen</title>
+    <link>https://joshcullen.github.io/tag/movement-ecology/</link>
+      <atom:link href="https://joshcullen.github.io/tag/movement-ecology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Movement Ecology</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Josh Cullen</copyright><lastBuildDate>Sun, 22 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://joshcullen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Movement Ecology</title>
+      <link>https://joshcullen.github.io/tag/movement-ecology/</link>
+    </image>
+    
+    <item>
+      <title>Development of a Transferable Species Distribution Modeling Approach</title>
+      <link>https://joshcullen.github.io/project/bayesian_transferable-sdm/</link>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/project/bayesian_transferable-sdm/</guid>
+      <description>&lt;p&gt;Understanding the distributions of species is fundamental to ecology, especially within the marine environment where biotic and abiotic variables are often dynamic over space and time. Ecological models have been used to make inferences on species-environment relationships in addition to predicting past and future patterns of species distributions. However, these models are typically developed for a single location, time period, spatial scale, or species life stage, resulting in poor predictive accuracy beyond the study domain. This project will provide a new transferable modeling approach that is applicable to a wide range of species, which will be used to test predictions of current and future distributions of green turtles (&lt;em&gt;Chelonia mydas&lt;/em&gt;) in the Gulf of Mexico, Brazil, and Qatar. Since there is a lack of information on how marine turtles in general will respond to climate change impacts, these results will provide a crucial evaluation of projected range shifts that could be used by both conservationists and decision makers. This project will foster the integration of research and education through mentoring undergraduate students that identify as underrepresented minorities, teaching marine ecology and conservation at Florida State University, hosting workshops on the analysis of animal movement data, as well as hosting public outreach events. These efforts to disseminate knowledge and results beyond traditional means within the scientific community will be used to engage future scientists and the general public on pressing ecological topics.&lt;/p&gt;
+&lt;p&gt;The overall aim of this project is to develop a transferable modeling approach that can provide accurate and precise estimates of species distributions under changing conditions. This study addresses some of the challenges of model transferability through three hypotheses: 1) a model informed by biological processes and physiological constraints will exhibit greater transferability than those that do not; 2) the analysis of environmental variables at the scale of species perception will result in greater model transferability; 3) a model that accounts for differences among life stages will result in greater model transferability. These hypotheses will be tested using a large dataset of green turtle occurrences at three distant locations (Gulf of Mexico, Brazil, Qatar) with a flexible Bayesian species distribution model. The use of independent datasets (from Brazil and Qatar) to validate the species distribution model (developed on data from the Gulf of Mexico) provides a unique opportunity to critically evaluate the spatial transferability of the model. The findings from this proposed work will provide a roadmap for the further development of transferable ecological models to predict biodiversity, disease outbreaks, and risks of biological invasions across global regions and possibly under future climate change impacts. Elucidating the importance of biological mechanisms, scale, and life stage differences to ecological modeling is transformative because these factors have been largely untested with regard to model transferability. Since predictions remain a major frontier in ecology, products of this work will be of broad interest to a diverse group of scientists, such as marine ecologists, biological oceanographers, fisheries scientists, and conservationists.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Identifying Latent Behavioral States From Animal Biotelemetry Data Using Non-parametric Bayesian Methods</title>
+      <link>https://joshcullen.github.io/project/bayesian-behavior-modeling/</link>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/project/bayesian-behavior-modeling/</guid>
+      <description>&lt;p&gt;Movement decisions of an organism can impact habitat use, foraging strategies, reproductive success, and survival, which ultimately affects population dynamics of a species. The study of animal movement has increased in the past few decades, along with the increased capacity of telemetry devices to record locations with greater accuracy and over longer durations. Although there are a wide variety of existing methods that estimate latent behavioral states, many of these methods have limitations for their use and inference (e.g., only analyze one data stream, require parametric distributions).&lt;/p&gt;
+&lt;p&gt;We have developed two non-parametric Bayesian models that addresses some of the limitations of these existing methods for the estimation of animal behavioral states. One of these models uses a two-stage approach: 1) Multiple data streams (e.g., step length, turning angle, temperature, depth) are partitioned into track segments for each ID; 2) Track segments are pooled across IDs and clustered to determine the optimal number of states and their distributions per data stream. This proposed framework provides a fast and flexible method to characterize latent states at the level of track segments, which may be particularly useful when time steps are short (and therefore behavior is highly autocorrelated) and when distributions of data streams are not well fit by parametric distributions. Additionally, the other method uses a mixture model to infer observation-level behavioral state estimates using the same type of non-parametric clustering approach. Both of these models can be applied using functions included within the &lt;a href=&#34;https://joshcullen.github.io/bayesmove&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bayesmove&lt;/a&gt; package in R.&lt;/p&gt;
+&lt;p&gt;The two-stage segment-level model is described further in a &lt;a href=&#34;https://www.biorxiv.org/content/10.1101/2020.11.05.369702v2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pre-print&lt;/a&gt; at bioRxiv while the observation-level model is described further in an article that is &amp;lsquo;in press&amp;rsquo; at &lt;a href=&#34;https://esajournals.onlinelibrary.wiley.com/journal/19395582&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ecological Applications&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Space-Use and Habitat Preference of Sea Turtles in the Arabian Gulf</title>
+      <link>https://joshcullen.github.io/project/sea-turtle-movement/</link>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/project/sea-turtle-movement/</guid>
+      <description>&lt;p&gt;Climate change is increasingly forcing organisms to alter their movement and behavioral patterns to meet the new physical demands within their historic ranges. For animals that are already listed as endangered, such as many sea turtles species, these additional forms of stress may contribute to declining trends in population size. Populations of sea turtles in the Arabian Gulf may be among the first to feel the strongest effects of climate change since this semi-enclosed basin is one of the warmest and most saline water bodies in the world.&lt;/p&gt;
+&lt;p&gt;This study evaluates the behavioral patterns and space-use of hawksbill (&lt;em&gt;Eretmochelys imbricata&lt;/em&gt;) and green turtles (&lt;em&gt;Chelonia mydas&lt;/em&gt;) within the Arabian Gulf tagged off the coast of Qatar. This study also evaluates drivers of turtle movement and makes predictions on habitat suitability within the Gulf as a function of behavioral state. As sea surface temperature becomes warmer for a longer duration each year, turtles will likely need to modify movement and behavioral patterns of habitat use in order to cope with this thermal stress.&lt;/p&gt;
+&lt;p&gt;Our published work on hawksbill turtle movement ecology can be found &lt;a href=&#34;https://joshcullen.github.io/publication/hawksbill-movement-patterns/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

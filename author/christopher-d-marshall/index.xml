@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christopher D Marshall | Josh Cullen</title>
+    <link>https://joshcullen.github.io/author/christopher-d-marshall/</link>
+      <atom:link href="https://joshcullen.github.io/author/christopher-d-marshall/index.xml" rel="self" type="application/rss+xml" />
+    <description>Christopher D Marshall</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Josh Cullen</copyright><lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://joshcullen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Christopher D Marshall</title>
+      <link>https://joshcullen.github.io/author/christopher-d-marshall/</link>
+    </image>
+    
+    <item>
+      <title>Environmental drivers of habitat use by hawksbill turtles (Eretmochelys imbricata) in the Arabian Gulf (Qatar)</title>
+      <link>https://joshcullen.github.io/publication/hawksbill-movement-patterns/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/publication/hawksbill-movement-patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do sharks exhibit heterodonty by tooth position and over ontogeny? A comparison using elliptic Fourier analysis</title>
+      <link>https://joshcullen.github.io/publication/shark-tooth-morphology/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/publication/shark-tooth-morphology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integration of multi-tissue PAH and PCB burdens with biomarker activity in three coastal shark species from the northwestern Gulf of Mexico</title>
+      <link>https://joshcullen.github.io/publication/shark-body-burdens/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/publication/shark-body-burdens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large dugong (Dugong dugon) aggregations persist in coastal Qatar</title>
+      <link>https://joshcullen.github.io/publication/dugong-aggregation/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://joshcullen.github.io/publication/dugong-aggregation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
