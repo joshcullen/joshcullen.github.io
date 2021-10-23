@@ -11,6 +11,30 @@
     <loc>https://joshcullen.github.io/courses/example/stats/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://joshcullen.github.io/tag/animal-movement/</loc>
+    <lastmod>2021-10-23T10:27:19-04:00</lastmod>
+  </url><url>
+    <loc>https://joshcullen.github.io/tag/exploratory-analysis/</loc>
+    <lastmod>2021-10-23T10:27:19-04:00</lastmod>
+  </url><url>
+    <loc>https://joshcullen.github.io/post/interactively-explore-animal-spatial-data/</loc>
+    <lastmod>2021-10-23T10:27:19-04:00</lastmod>
+  </url><url>
+    <loc>https://joshcullen.github.io/</loc>
+    <lastmod>2021-10-23T10:27:19-04:00</lastmod>
+  </url><url>
+    <loc>https://joshcullen.github.io/post/</loc>
+    <lastmod>2021-10-23T10:27:19-04:00</lastmod>
+  </url><url>
+    <loc>https://joshcullen.github.io/tag/r/</loc>
+    <lastmod>2021-10-23T10:27:19-04:00</lastmod>
+  </url><url>
+    <loc>https://joshcullen.github.io/tag/shiny/</loc>
+    <lastmod>2021-10-23T10:27:19-04:00</lastmod>
+  </url><url>
+    <loc>https://joshcullen.github.io/tags/</loc>
+    <lastmod>2021-10-23T10:27:19-04:00</lastmod>
+  </url><url>
     <loc>https://joshcullen.github.io/tag/bayesian-statistics/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -18,9 +42,6 @@
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://joshcullen.github.io/project/bayesian-behavior-modeling/</loc>
-    <lastmod>2021-08-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://joshcullen.github.io/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://joshcullen.github.io/tag/movement-ecology/</loc>
@@ -36,9 +57,6 @@
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://joshcullen.github.io/project/sea-turtle-movement/</loc>
-    <lastmod>2021-08-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://joshcullen.github.io/tags/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://joshcullen.github.io/tag/bioaccumulation/</loc>
@@ -65,37 +83,10 @@
     <loc>https://joshcullen.github.io/courses/example/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://joshcullen.github.io/tag/academic/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://joshcullen.github.io/publication-type/2/</loc>
+    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://joshcullen.github.io/authors/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://joshcullen.github.io/categories/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://joshcullen.github.io/category/demo/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://joshcullen.github.io/author/josh-cullen-phd/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://joshcullen.github.io/post/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://joshcullen.github.io/post/getting-started/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://joshcullen.github.io/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://joshcullen.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://joshcullen.github.io/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://joshcullen.github.io/publication-type/2/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://joshcullen.github.io/author/christopher-d-marshall/</loc>
@@ -206,14 +197,8 @@
     <loc>https://joshcullen.github.io/tag/teeth/</loc>
     <lastmod>2020-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://joshcullen.github.io/post/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://joshcullen.github.io/publication/shark-tooth-morphology/</loc>
     <lastmod>2019-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://joshcullen.github.io/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://joshcullen.github.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
@@ -258,5 +243,11 @@
     <lastmod>2013-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://joshcullen.github.io/admin/</loc>
+  </url><url>
+    <loc>https://joshcullen.github.io/categories/</loc>
+  </url><url>
+    <loc>https://joshcullen.github.io/author/josh-cullen-phd/</loc>
+  </url><url>
+    <loc>https://joshcullen.github.io/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
   </url>
 </urlset>
