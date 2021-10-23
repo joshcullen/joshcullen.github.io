@@ -11,6 +11,30 @@
     <loc>https://joshcullen.github.io/courses/example/stats/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://joshcullen.github.io/tag/animal-movement/</loc>
+    <lastmod>2021-10-23T10:27:19-04:00</lastmod>
+  </url><url>
+    <loc>https://joshcullen.github.io/tag/exploratory-analysis/</loc>
+    <lastmod>2021-10-23T10:27:19-04:00</lastmod>
+  </url><url>
+    <loc>https://joshcullen.github.io/post/interactively-explore-animal-spatial-data/</loc>
+    <lastmod>2021-10-23T10:27:19-04:00</lastmod>
+  </url><url>
+    <loc>https://joshcullen.github.io/</loc>
+    <lastmod>2021-10-23T10:27:19-04:00</lastmod>
+  </url><url>
+    <loc>https://joshcullen.github.io/post/</loc>
+    <lastmod>2021-10-23T10:27:19-04:00</lastmod>
+  </url><url>
+    <loc>https://joshcullen.github.io/tag/r/</loc>
+    <lastmod>2021-10-23T10:27:19-04:00</lastmod>
+  </url><url>
+    <loc>https://joshcullen.github.io/tag/shiny/</loc>
+    <lastmod>2021-10-23T10:27:19-04:00</lastmod>
+  </url><url>
+    <loc>https://joshcullen.github.io/tags/</loc>
+    <lastmod>2021-10-23T10:27:19-04:00</lastmod>
+  </url><url>
     <loc>https://joshcullen.github.io/tag/bayesian-statistics/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -18,9 +42,6 @@
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://joshcullen.github.io/project/bayesian-behavior-modeling/</loc>
-    <lastmod>2021-08-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://joshcullen.github.io/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://joshcullen.github.io/tag/movement-ecology/</loc>
@@ -36,9 +57,6 @@
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://joshcullen.github.io/project/sea-turtle-movement/</loc>
-    <lastmod>2021-08-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://joshcullen.github.io/tags/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://joshcullen.github.io/tag/bioaccumulation/</loc>
@@ -229,8 +247,6 @@
     <loc>https://joshcullen.github.io/categories/</loc>
   </url><url>
     <loc>https://joshcullen.github.io/author/josh-cullen-phd/</loc>
-  </url><url>
-    <loc>https://joshcullen.github.io/post/</loc>
   </url><url>
     <loc>https://joshcullen.github.io/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
   </url>
