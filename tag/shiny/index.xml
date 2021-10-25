@@ -22,8 +22,7 @@
 
 
 &lt;p&gt;Animal spatial data can be difficult to explore and clean for subsequent analyses, especially when trying to explore the raw data. These data can be either independent point locations of sightings or trajectories of animal movement from telemetry data. This post includes a version of the interactive Shiny app as part of the &lt;a href=&#34;https://joshcullen.github.io/bayesmove&#34;&gt;bayesmove&lt;/a&gt; package, but allows users to explore their data directly from a web browser instead of needing to code in R. Users can explore data from multiple individuals, map these locations, and filter the data, which can then be exported for further analysis. Alternatively, users can also access this app online at &lt;a href=&#34;https://joshcullen.shinyapps.io/segmentation_of_NSD/&#34;&gt;shinyapps.io&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe src=&#34;https://joshcullen.shinyapps.io/segmentation_of_NSD/?showcase=0&#34; width=&#34;672&#34; height=&#34;700px&#34;&gt;
-&lt;/iframe&gt;
+&lt;p&gt;&lt;iframe data-deferred-src=&#34;app87879b96491c05a018a17b03af52822e/?w=&amp;amp;__subapp__=1&#34; width=&#34;100%&#34; height=&#34;700&#34; class=&#34;shiny-frame shiny-frame-deferred&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
     </item>
     
