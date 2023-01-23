@@ -1,0 +1,84 @@
+---
+title: "Publications"
+---
+
+## 2023
+
+**Cullen JA**, Attias N, Desbiez ALJ, Valle D. (2023). Biologging as an
+important tool to uncover behaviors of cryptic species: An analysis of
+giant armadillos (Priodontes maximus). *PeerJ*, 11:e14726
+<https://doi.org/10.7717/peerj.14726>.
+<a href='Cullen et al 2023 state-habitat associations of giant armadillos.pdf'>\[PDF\]</a>
+
+## 2022
+
+**Cullen JA**, Poli CL, Fletcher Jr RJ, Valle D. (2022). Identifying
+latent behavioral states in animal movement with non- parametric
+Bayesian methods. *Methods in Ecology and Evolution*, 13(2): 432-446.
+<https://doi.org/10.1111/2041-210X.13745>.
+<a href='Cullen et al 2022 identifying latent behavioral states M4.pdf'>\[PDF\]</a>
+
+Valle D, Jameel Y, Betancourt B, Azeria ET, Attias N, **Cullen J**.
+(2022). Automatic selection of the number of clusters using Bayesian
+clustering and sparsity-inducing priors. *Ecological Applications*,
+32(3): e2524. <https://doi.org/10.1002/eap.2524>.
+<a href='Valle et al 2022 automatic selection of clusters via TSBP.pdf'>\[PDF\]</a>
+
+## 2021
+
+Lawson MC, **Cullen JA**, Nunnally CC, Rowe GT, Hala DN. (2021). PAH and
+PCB body-burdens in epibenthic deep-sea invertebrates from the northern
+Gulf of Mexico. *Marine Pollution Bulletin*, 162: 111825.
+<https://doi.org/10.1016/j.marpolbul.2020.111825>.
+<a href='Lawson et al 2021 PAH and PCB burdens in epibenthic inverts.pdf'>\[PDF\]</a>
+
+## 2020
+
+Marshall CD, **Cullen, JA**, Al-Ansi M, Hamza S, Abdel-Moati MA. (2020).
+Environmental drivers of habitat use by hawksbill turtles (*Eretmochelys
+imbricata*) in the Arabian Gulf (Qatar). *Frontiers in Marine Science*,
+7: 961. <https://doi.org/10.3389/fmars.2020.549575>.
+<a href='Marshall et al 2020 hawksbill movement in Arabian Gulf.pdf'>\[PDF\]</a>
+
+Bacosa HP, Kamalanathan M., **Cullen J**, Shi D, Xu C, Schwehr KA, Hala
+D, Wade TL, Knap AH, Santschi PH, Quigg A. (2020). Marine snow
+aggregates are enriched in polycyclic aromatic hydrocarbons (PAHs) in
+oil contaminated waters. *Journal of Marine Science and Engineering*,
+8(10): 781. <https://doi.org/10.3390/jmse8100781>.
+<a href='Bacosa et al 2020 marine snow PAHs mesocosm.pdf'>\[PDF\]</a>
+
+## 2019
+
+**Cullen JA**, Marshall CD. (2019). Do sharks exhibit heterodonty by
+tooth position and over ontogeny?: A comparison using elliptic Fourier
+analysis. *Journal of Morphology,* 280: 687-700.
+<https://doi.org/10.1002/jmor.20975>.
+<a href='Cullen and Marshall 2019 shark tooth morphology heterodonty.pdf'>\[PDF\]</a>
+
+**Cullen JA**, Marshall CD, Hala D. (2019). Integration of multi-tissue
+PAH and PCB burdens with biomarker activity in three coastal shark
+species from the northwestern Gulf of Mexico. *Science of the Total
+Environment,* 650: 1158-1172.
+<https://doi.org/10.1016/j.scitotenv.2018.09.128>.
+<a href='Cullen et al 2019 PAHs PCBs and biomarkers in 3 sharks GOM.pdf'>\[PDF\]</a>
+
+## 2018
+
+Hala D, **Cullen JA**, Hernout B, Ivanov I. (2018). In silico predicted
+transcriptional regulatory control of steroidogenesis in spawning female
+fathead minnows (*Pimephales promelas*). *Journal of Theoretical
+Biology,* 455: 179-190. <https://doi.org/10.1016/j.jtbi.2018.07.020>.
+<a href='Hala et al 2018 fathead minnow steroidogenesis TRN.pdf'>\[PDF\]</a>
+
+Marshall CD, Al Ansi M, Dupont J, Warren C, Al Shaikh I, **Cullen J**.
+(2018). Large dugong (*Dugong dugon*) aggregations persist in coastal
+Qatar. *Marine Mammal Science,* 34(4): 1154-1163. <https://doi.org/10.1111/mms.12497>.
+<a href='Marshall et al 2018 Qatar dugong aggregation.pdf'>\[PDF\]</a>
+
+## 2013
+
+**Cullen JA**, Maie T, Schoenfuss HL, Blob RW. (2013). Evolutionary
+Novelty versus Exaptation: Oral Kinematics in Feeding versus Climbing in
+the Waterfall-Climbing Hawaiian Goby *Sicyopterus stimpsoni*. *PLoS
+ONE,* 8(1): e53274. <https://doi.org/10.1371/journal.pone.0053274>.
+<a href='Cullen et al 2013 S stimpsoni oral kinematics feeding v climbing.pdf'>\[PDF\]</a>

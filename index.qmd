@@ -1,0 +1,39 @@
+---
+title: "Josh Cullen, PhD"
+about:
+  template: trestles
+  image-width: 20em
+  image-shape: round
+  image: profile.jpg
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/josh_a_cullen
+    - icon: github
+      text: Github
+      href: https://github.com/joshcullen
+    - text: "{{< ai google-scholar size=1x >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=la4yig0AAAAJ&hl=en
+    - text: "{{< ai researchgate size=1x >}} Researchgate"
+      href: https://www.researchgate.net/profile/Joshua-Cullen-3
+    - text: "{{< fa envelope >}} Email"
+      href: "mailto:joshcullen10@gmail.com"
+---
+
+::: {.column-page}
+
+## About me
+I am an NSF Ocean Sciences Postdoctoral Fellow in [Mariana Fuentes](https://marineturtleresearch.com)' lab at Florida State University where I'm developing a transferable species distribution modeling approach. This includes the analysis of satellite telemetry data while accounting for habitat preferences of different age classes (e.g., juveniles, adults), spatial scale of environmental variables, and using a species' physiology (e.g., thermal neutral zone) to inform habitat selection. In general, my research takes an integrative approach to understand how animals interact with their environment.
+
+Generally, I am a quantitative ecologist with a passion for finding novel insights from large datasets. I am broadly interested in the ecological roles and movement patterns of vertebrate organisms to assess how sympatric species partition niche space and interact with their environment, respectively. I am also interested in data exploration, acquisition, and dissemination via interactive web applications (via [Shiny](https://shiny.rstudio.com)), which may also serve as decision-support tools. I am particularly interested in using quantitative statistical methods (e.g., Bayesian models, state-space models, mixed effects (i.e. hierarchical) models, multivariate ordinations and clustering) and GIS to address complex ecological problems.
+
+## Education
+
+{{< fa graduation-cap >}} **PhD Wildlife & Fisheries Sciences, 2019**<br>
+Texas A&M University
+
+{{< fa graduation-cap >}} **BS Biological Sciences, 2013**<br>
+Clemson University
+
+
+:::

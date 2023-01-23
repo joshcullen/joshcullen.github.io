@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Josh Cullen"
+  site-url: https://joshcullen.github.io
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: cv.qmd
+        text: CV
+      - href: Publications/index.qmd
+        text: Publications
+      - href: software_shiny.qmd
+        text: Software & Shiny Apps
+      - href: workshops.qmd
+        text: Workshops
+  page-footer:
+    left:  "&copy; 2023, Josh Cullen"
+
+format:
+  html:
+    theme:
+     light: flatly
+     dark: solar
+    css: styles.css
+    toc: true
+
+editor: visual
+

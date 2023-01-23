@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Workshops",
+    "section": "",
+    "text": "This page is under construction."
+  },
+  {
+    "objectID": "Publications/index.html",
+    "href": "Publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Cullen JA, Attias N, Desbiez ALJ, Valle D. (2023). Biologging as an important tool to uncover behaviors of cryptic species: An analysis of giant armadillos (Priodontes maximus). PeerJ, 11:e14726 https://doi.org/10.7717/peerj.14726. [PDF]"
+  },
+  {
+    "objectID": "Publications/index.html#section-1",
+    "href": "Publications/index.html#section-1",
+    "title": "Publications",
+    "section": "2022",
+    "text": "2022\nCullen JA, Poli CL, Fletcher Jr RJ, Valle D. (2022). Identifying latent behavioral states in animal movement with non- parametric Bayesian methods. Methods in Ecology and Evolution, 13(2): 432-446. https://doi.org/10.1111/2041-210X.13745. [PDF]\nValle D, Jameel Y, Betancourt B, Azeria ET, Attias N, Cullen J. (2022). Automatic selection of the number of clusters using Bayesian clustering and sparsity-inducing priors. Ecological Applications, 32(3): e2524. https://doi.org/10.1002/eap.2524. [PDF]"
+  },
+  {
+    "objectID": "Publications/index.html#section-2",
+    "href": "Publications/index.html#section-2",
+    "title": "Publications",
+    "section": "2021",
+    "text": "2021\nLawson MC, Cullen JA, Nunnally CC, Rowe GT, Hala DN. (2021). PAH and PCB body-burdens in epibenthic deep-sea invertebrates from the northern Gulf of Mexico. Marine Pollution Bulletin, 162: 111825. https://doi.org/10.1016/j.marpolbul.2020.111825. [PDF]"
+  },
+  {
+    "objectID": "Publications/index.html#section-3",
+    "href": "Publications/index.html#section-3",
+    "title": "Publications",
+    "section": "2020",
+    "text": "2020\nMarshall CD, Cullen, JA, Al-Ansi M, Hamza S, Abdel-Moati MA. (2020). Environmental drivers of habitat use by hawksbill turtles (Eretmochelys imbricata) in the Arabian Gulf (Qatar). Frontiers in Marine Science, 7: 961. https://doi.org/10.3389/fmars.2020.549575. [PDF]\nBacosa HP, Kamalanathan M., Cullen J, Shi D, Xu C, Schwehr KA, Hala D, Wade TL, Knap AH, Santschi PH, Quigg A. (2020). Marine snow aggregates are enriched in polycyclic aromatic hydrocarbons (PAHs) in oil contaminated waters. Journal of Marine Science and Engineering, 8(10): 781. https://doi.org/10.3390/jmse8100781. [PDF]"
+  },
+  {
+    "objectID": "Publications/index.html#section-4",
+    "href": "Publications/index.html#section-4",
+    "title": "Publications",
+    "section": "2019",
+    "text": "2019\nCullen JA, Marshall CD. (2019). Do sharks exhibit heterodonty by tooth position and over ontogeny?: A comparison using elliptic Fourier analysis. Journal of Morphology, 280: 687-700. https://doi.org/10.1002/jmor.20975. [PDF]\nCullen JA, Marshall CD, Hala D. (2019). Integration of multi-tissue PAH and PCB burdens with biomarker activity in three coastal shark species from the northwestern Gulf of Mexico. Science of the Total Environment, 650: 1158-1172. https://doi.org/10.1016/j.scitotenv.2018.09.128. [PDF]"
+  },
+  {
+    "objectID": "Publications/index.html#section-5",
+    "href": "Publications/index.html#section-5",
+    "title": "Publications",
+    "section": "2018",
+    "text": "2018\nHala D, Cullen JA, Hernout B, Ivanov I. (2018). In silico predicted transcriptional regulatory control of steroidogenesis in spawning female fathead minnows (Pimephales promelas). Journal of Theoretical Biology, 455: 179-190. https://doi.org/10.1016/j.jtbi.2018.07.020. [PDF]\nMarshall CD, Al Ansi M, Dupont J, Warren C, Al Shaikh I, Cullen J. (2018). Large dugong (Dugong dugon) aggregations persist in coastal Qatar. Marine Mammal Science, 34(4): 1154-1163. https://doi.org/10.1111/mms.12497. [PDF]"
+  },
+  {
+    "objectID": "Publications/index.html#section-6",
+    "href": "Publications/index.html#section-6",
+    "title": "Publications",
+    "section": "2013",
+    "text": "2013\nCullen JA, Maie T, Schoenfuss HL, Blob RW. (2013). Evolutionary Novelty versus Exaptation: Oral Kinematics in Feeding versus Climbing in the Waterfall-Climbing Hawaiian Goby Sicyopterus stimpsoni. PLoS ONE, 8(1): e53274. https://doi.org/10.1371/journal.pone.0053274. [PDF]"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Josh Cullen, PhD",
+    "section": "",
+    "text": "I am an NSF Ocean Sciences Postdoctoral Fellow in Mariana Fuentes’ lab at Florida State University where I’m developing a transferable species distribution modeling approach. This includes the analysis of satellite telemetry data while accounting for habitat preferences of different age classes (e.g., juveniles, adults), spatial scale of environmental variables, and using a species’ physiology (e.g., thermal neutral zone) to inform habitat selection. In general, my research takes an integrative approach to understand how animals interact with their environment.\nGenerally, I am a quantitative ecologist with a passion for finding novel insights from large datasets. I am broadly interested in the ecological roles and movement patterns of vertebrate organisms to assess how sympatric species partition niche space and interact with their environment, respectively. I am also interested in data exploration, acquisition, and dissemination via interactive web applications (via Shiny), which may also serve as decision-support tools. I am particularly interested in using quantitative statistical methods (e.g., Bayesian models, state-space models, mixed effects (i.e. hierarchical) models, multivariate ordinations and clustering) and GIS to address complex ecological problems.\n\n\n\n PhD Wildlife & Fisheries Sciences, 2019 Texas A&M University\n BS Biological Sciences, 2013 Clemson University"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Download current CV"
+  },
+  {
+    "objectID": "software_shiny.html",
+    "href": "software_shiny.html",
+    "title": "Software & Shiny Apps",
+    "section": "",
+    "text": "This page is under construction."
+  }
+]
