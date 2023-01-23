@@ -19,6 +19,8 @@ website:
         text: Workshops
   page-footer:
     left:  "&copy; 2023, Josh Cullen"
+  google-analytics: "G-E5JJNK17PJ"
+  cookie-consent: true
 
 format:
   html:
