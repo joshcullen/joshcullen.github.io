@@ -6,7 +6,7 @@ title: "Publications"
 
 **Cullen JA**, Attias N, Desbiez ALJ, Valle D. (2023). Biologging as an
 important tool to uncover behaviors of cryptic species: An analysis of
-giant armadillos (Priodontes maximus). *PeerJ*, 11:e14726
+giant armadillos (*Priodontes maximus*). *PeerJ*, 11:e14726.
 <https://doi.org/10.7717/peerj.14726>.
 <a href='Cullen et al 2023 state-habitat associations of giant armadillos.pdf'>\[PDF\]</a>
 

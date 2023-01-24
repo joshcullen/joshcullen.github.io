@@ -18,9 +18,13 @@ website:
       - href: workshops.qmd
         text: Workshops
   page-footer:
-    left:  "&copy; 2023, Josh Cullen"
+    left: |
+      &copy; 2023 Josh Cullen
+    right: |
+      This page is built with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)
   google-analytics: "G-E5JJNK17PJ"
   cookie-consent: true
+  open-graph: true
 
 format:
   html:

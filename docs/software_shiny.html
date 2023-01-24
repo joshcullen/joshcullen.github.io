@@ -43,6 +43,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,6 +92,8 @@ cookieconsent.run({
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Josh Cullen - Software &amp; Shiny Apps">
+<meta property="og:site-name" content="Josh Cullen">
 </head>
 
 <body class="nav-fixed">
@@ -142,7 +146,22 @@ cookieconsent.run({
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#software" id="toc-software" class="nav-link active" data-scroll-target="#software">Software</a>
+  <ul class="collapse">
+  <li><a href="#bayesmove" id="toc-bayesmove" class="nav-link" data-scroll-target="#bayesmove">bayesmove</a></li>
+  </ul></li>
+  <li><a href="#shiny-applications" id="toc-shiny-applications" class="nav-link" data-scroll-target="#shiny-applications">Shiny Applications</a>
+  <ul class="collapse">
+  <li><a href="#exploration-of-animal-movement-data" id="toc-exploration-of-animal-movement-data" class="nav-link" data-scroll-target="#exploration-of-animal-movement-data">Exploration of animal movement data</a></li>
+  <li><a href="#invasive-species-expert-elicitation" id="toc-invasive-species-expert-elicitation" class="nav-link" data-scroll-target="#invasive-species-expert-elicitation">Invasive species expert elicitation</a></li>
+  <li><a href="#hawksbill-sea-turtle-migrations" id="toc-hawksbill-sea-turtle-migrations" class="nav-link" data-scroll-target="#hawksbill-sea-turtle-migrations">Hawksbill sea turtle migrations</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -164,9 +183,30 @@ cookieconsent.run({
 
 </header>
 
-<p>This page is under construction.</p>
+<section id="software" class="level1">
+<h1>Software</h1>
+<section id="bayesmove" class="level3">
+<h3 class="anchored" data-anchor-id="bayesmove"><a href="https://joshcullen.github.io/bayesmove/">bayesmove</a></h3>
+<p>An R package for inferring latent behavioral states from animal movement data (telemetry and/or biologging) using non-parametric Bayesian methods. This includes features for pre-processing and analysis of data, as well as the visualization of model results. This framework does not rely on standard parametric probability density functions, which provides flexibility during model fitting. Further details regarding part of this framework can be found in <a href="https://doi.org/10.1111/2041-210X.13745">Cullen et al.&nbsp;(2022)</a> and <a href="https://doi.org/10.1002/eap.2524">Valle et al.&nbsp;(2022)</a>.</p>
+</section>
+</section>
+<section id="shiny-applications" class="level1">
+<h1>Shiny Applications</h1>
+<section id="exploration-of-animal-movement-data" class="level3">
+<h3 class="anchored" data-anchor-id="exploration-of-animal-movement-data"><a href="https://joshcullen.shinyapps.io/segmentation_of_NSD/">Exploration of animal movement data</a></h3>
+<p>This app provides an interactive and dynamic platform for users to upload and visually explore their animal telemetry dataset. Options are provided to filter by each column of the uploaded data, as well as to interactively subset the individuals and time period that is being mapped. An interactive time series plot is linked to a Leaflet map for exploring particular patterns of interest within the data.</p>
+</section>
+<section id="invasive-species-expert-elicitation" class="level3">
+<h3 class="anchored" data-anchor-id="invasive-species-expert-elicitation"><a href="https://joshcullen.shinyapps.io/invasive_expert_elicitation/">Invasive species expert elicitation</a></h3>
+<p>This app was created to assist with data collection for an expert elicitation workshop on current distributions of invasive species in the southeast US. Users are first asked to define habitat suitability for a number of classes from the National Land Cover Database per species. Next, users are asked to define the intensity of species occurrence throughout the region on a raster map. I developed this novel interactive tool to be used as a layer of a Leaflet map. Additional info about the workshop can be found <a href="https://joshcullen.github.io/invasive_spp_expert_elicitation/">here</a>.</p>
+</section>
+<section id="hawksbill-sea-turtle-migrations" class="level3">
+<h3 class="anchored" data-anchor-id="hawksbill-sea-turtle-migrations"><a href="https://joshcullen.shinyapps.io/Hawksbill_Movement/">Hawksbill sea turtle migrations</a></h3>
+<p>Similar to the ‘Exploration of animal movement data’ Shiny app, this is a simplified version that was used to explore migratory looping movements of hawksbill turtles (<em>Eretmochelys imbricata</em>) in the Arabian Gulf for a study discerning environmental drivers of movement patterns (<a href="https://doi.org/10.3389/fmars.2020.549575">Marshall et al., 2020</a>). Users can still interactively and dynamically explore each of the tracks via a time series plot and Leaflet map, but with fewer options than the other app.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -420,8 +460,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© 2023, Josh Cullen</div>   
+    <div class="nav-footer-left">© 2023 Josh Cullen</div>   
       <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">This page is built with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a></div>
   </div>
 </footer>
 
