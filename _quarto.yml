@@ -13,10 +13,13 @@ website:
         text: CV
       - href: Publications/index.qmd
         text: Publications
+      - href: Research/index.qmd
+        text: Research
       - href: software_shiny.qmd
         text: Software & Shiny Apps
       - href: workshops.qmd
         text: Workshops
+      
   page-footer:
     left: |
       &copy; 2023 Josh Cullen

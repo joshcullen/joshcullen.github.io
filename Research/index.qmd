@@ -1,0 +1,14 @@
+---
+title: "Research"
+---
+
+## [Green Turtle Habitat Selection and Movement Patterns](GreenTurtleSDM.qmd)
+
+This project involved characterizing the resource use (or ecological
+niche) of juvenile and adult green turtles (*Chelonia mydas*) from the
+Gulf of Mexico, Brazil, and Qatar. Ultimately the aims of this project
+were focused on developing a statistical model that could be used to
+predict relative green turtle density at locations distant from where
+the turtles were tracked in this study. Interactive maps are included to
+show where green turtles moved at each of these sites with respect to
+environmental variables.

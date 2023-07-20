@@ -1,0 +1,449 @@
+---
+title: "Green Turtle Habitat Selection and Movement Patterns"
+format: html
+---
+
+`Add Leaflet map to show predictions of green turtle relative density that is scheduled to update each month`
+
+## Ecological niches and habitat selection
+
+Characterizing the distributions of animals over space and time is
+fundamental to the field of ecology, especially to understand
+relationships with biotic (e.g., predators, prey) and abiotic (e.g.,
+temperature, water depth, wind speed) variables (Leibold, 1995). This
+includes topics related to which species can be found together in the
+same areas (Chase, 2003; Saito et al., 2021), the spread and persistence
+of invasive species (Latimer et al., 2009; Peterson, 2003), as well as
+the factors that influence a species' ecological niche (Hutchinson,
+1957; Matthiopoulos et al., 2023). The [**ecological
+niche**]{.underline} is comprised of all resources (biotic and abiotic)
+that represent how an animal interacts with its environment, but is
+commonly studied from the perspective of *habitat use* and *food web
+interactions*.
+
+[![Source: Bear et al. 2022; modified from Williams, 1983. This diagram
+shows differences in habitat and environmental preferences across
+multiple lizard
+species.](https://cdn.kastatic.org/ka-perseus-images/41d25869ec0e8498de31642d8a180679299b80a8.png)](http://cnx.org/contents/24nI-KJ8@24.18:lGjgOeNc@8/Community-Ecology)
+
+While there are a variety of ways in which researchers have studied the
+ecological niches of fish, wildlife, and plants (such as stomach
+contents, natural biochemical tracers, surveys of animal occurrences),
+this study used a large dataset of animal tracking data collected with
+satellite tags. These satellite tags were deployed on the shells of 99
+green sea turtles (*Chelonia mydas*) that were captured and released at
+three distant regions: the Gulf of Mexico, Brazil (Southwest Atlantic),
+and Qatar (Arabian Gulf).
+
+![Source: Mariana Fuentes. Three adult green turtles tagged at Fernando
+de Noronha, Brazil. All tagging and handling was conducted under permits
+PROTO202000076 and SISBIO
+69389-12.](https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2048/https://marineturtleresearch.com/wp-content/uploads/2019/09/Spatial-ecology-of-marine-turtles-in-Brazil_13-2048x1365.jpg)
+
+With this tracking dataset, we evaluated the ecological niche of of
+green turtles by estimating habitat selection, which measures how an
+animal selects certain habitats compared to what was available to the
+animal. When performed across a large dataset of tagged green turtles,
+we can gain insight into what habitats they prefer and potentially use
+this information for conservation purposes, such as the creation or
+expansion of protected areas. Additionally, if the statistical models
+developed are accurate at making predictions beyond the region where
+animals were tracked, we can potentially use this model to generate
+further predictions outside of the study area. The use of these
+(transferable) models may be important for making predictions in regions
+that have little to no data collected, for forecasting potential areas
+that may be unsuitable/suitable in the future under climate change
+impacts, as well as to predict the potential expansion or establishment
+of invasive species.
+
+![Source: NOAA, Office of Response and
+Restoration](https://response.restoration.noaa.gov/sites/default/files/sea-turtle-life-cycle-infographic_noaa_720.jpg){width="500"}
+
+## Sea turtle life history
+
+There are seven species of sea turtles worldwide, all of which have
+complex life cycles where they remain connected to both the land and
+ocean. While there are some differences by species and location,
+hatchlings initially emerge from the nesting beach and then make their
+way to the water to begin their oceanic phase where they remain in the
+open ocean for a few years before returning to nearshore developmental
+habitats as juveniles. Juvenile turtles typically remain at these sites
+for potentially years at a time while they grow before maturing into
+reproductive adults. Adults may travel over 1000 miles (1600 km) from
+foraging to breeding sites, where females will then remain before laying
+several clutches of eggs over the span of a few weeks before returning
+to foraging grounds. These highly migratory species are therefore at
+risk to a number of anthropogenic (human-caused) threats, including
+habitat degradation, risk of bycatch from commercial fishing, boat
+strikes, and coastal pollution, among others.
+
+Green turtles follow the life cycle pattern described above, where they
+feed on primarily animal prey during their oceanic phase and then
+transition to an herbivorous diet upon settling in coastal developmental
+habitats as juveniles. As they continue to grow larger, green turtles
+often consume seagrasses and algae growing from the seafloor. This set
+of dietary preferences places great importance on seagrass meadows for
+this species, not to mention the large number of other coastal species
+that rely on seagrasses for food and shelter.
+
+## Relating green turtle movements to environmental factors
+
+Below is an interactive map that allow you to explore the
+observed locations of juvenile and adult green turtles with respect to the three variables
+that were considered by this study as important drivers of green turtle
+occurrence: water depth, sea surface temperature (SST), and net primary
+productivity (NPP; a proxy for plant biomass). These maps are shown for each
+of the three study regions: Gulf of Mexico, Brazil, and Qatar. This interactive map can also be found at <https://joshcullen.shinyapps.io/green_turtle_tracks/>.
+
+<iframe src="https://joshcullen.shinyapps.io/green_turtle_tracks/" class="screen-inset" width="100%" height="750px" data-external=1></iframe>
+
+
+
+## Spatial predictions of green turtle density
+
+Based on a transferable species distribution model I developed as part of an NSF-funded project, predictions of relative green turtle density are shown below for each of the three study regions. Values of depth, SST, and NPP are used to generate these predictions on a monthly basis. Code for generating these spatial predictions can be found [here](https://github.com/joshcullen/joshcullen.github.io/Research/GreenTurtleSDM.qmd). Predictions in below maps are shown for **`r month.name[Sys.Date() |> lubridate::month() - 1]`** **`r Sys.Date() |> lubridate::year()`**.
+
+
+```{r}
+#| label: load-data
+#| message: false
+#| warning: false
+#| echo: false
+
+library(tidyverse)
+library(lubridate)
+library(vroom)
+# library(sf)
+library(leaflet)
+library(leafem)
+# library(leaflet.extras)
+library(INLA)
+library(terra)  #terra v1.7.41
+library(rerddapXtracto)
+library(cmocean)
+library(viridis)
+# library(htmltools)
+
+source("leaflet_utils.R")  #helper functions
+
+
+#########################
+### Load fitted model ###
+#########################
+
+hgpr.fit <- readRDS("HGPR_model_fit.rds")
+
+
+########################################
+### Access and process raster layers ###
+########################################
+
+nwa.extent <- data.frame(xmin = -98,
+                         xmax = -70,
+                         ymin = 17,
+                         ymax = 35)
+satlantic.extent <- data.frame(xmin = -53,
+                               xmax = -32,
+                               ymin = -34,
+                               ymax = 3)
+arabgulf.extent <- data.frame(xmin = 47.5,
+                              xmax = 56.25,
+                              ymin = 23.5,
+                              ymax = 30.5)
+
+rast.date <- "2023-06-16T00:00:00Z"
+
+
+### SST ###
+nwa.sst <- vroom(url(sst.url(date = rast.date, extent = nwa.extent))) %>% 
+  dplyr::select(-time) %>% 
+  slice(-1) %>% 
+  mutate(across(1:3, function(x) as.numeric(x))) %>% 
+  rename(lat = latitude, lng = longitude) %>% 
+  dplyr::relocate(lng, lat, sst) %>% 
+  terra::rast(., crs = "EPSG:4326")
+
+satlantic.sst <- vroom(url(sst.url(date = rast.date, extent = satlantic.extent))) %>% 
+  dplyr::select(-time) %>% 
+  slice(-1) %>% 
+  mutate(across(1:3, function(x) as.numeric(x))) %>% 
+  rename(lat = latitude, lng = longitude) %>% 
+  dplyr::relocate(lng, lat, sst) %>% 
+  terra::rast(., crs = "EPSG:4326")
+
+arabgulf.sst <- vroom(url(sst.url(date = rast.date, extent = arabgulf.extent))) %>% 
+  dplyr::select(-time) %>% 
+  slice(-1) %>% 
+  mutate(across(1:3, function(x) as.numeric(x))) %>% 
+  rename(lat = latitude, lng = longitude) %>% 
+  dplyr::relocate(lng, lat, sst) %>% 
+  terra::rast(., crs = "EPSG:4326")
+
+
+
+### NPP ###
+nppInfo <- rerddap::info('erdMH1ppmday')
+
+rast.date1 <- gsub(pattern = "T.*", replacement = "", x = rast.date)
+
+nwa.npp.bbox <- rxtracto_3D(nppInfo, parameter = 'productivity', xcoord = nwa.extent[,1:2],
+                        ycoord = nwa.extent[,3:4], tcoord = rep(rast.date1, 2), zcoord = 0)
+nwa.npp <- array2rast(lon = nwa.npp.bbox$longitude,
+                            lat = nwa.npp.bbox$latitude,
+                            var = nwa.npp.bbox$productivity,
+                            time = nwa.npp.bbox$time,
+                            extent = ext(unlist(nwa.extent)))
+
+
+satlantic.npp.bbox <- rxtracto_3D(nppInfo, parameter = 'productivity',
+                                  xcoord = satlantic.extent[,1:2],
+                                  ycoord = satlantic.extent[,3:4],
+                                  tcoord = rep(rast.date1, 2),
+                                  zcoord = 0)
+satlantic.npp <- array2rast(lon = satlantic.npp.bbox$longitude,
+                            lat = satlantic.npp.bbox$latitude,
+                            var = satlantic.npp.bbox$productivity,
+                            time = satlantic.npp.bbox$time,
+                            extent = ext(unlist(satlantic.extent)))
+
+
+arabgulf.npp.bbox <- rxtracto_3D(nppInfo, parameter = 'productivity',
+                                 xcoord = arabgulf.extent[,1:2],
+                                 ycoord = arabgulf.extent[,3:4],
+                                 tcoord = rep(rast.date1, 2),
+                                 zcoord = 0)
+arabgulf.npp <- array2rast(lon = arabgulf.npp.bbox$longitude,
+                            lat = arabgulf.npp.bbox$latitude,
+                            var = arabgulf.npp.bbox$productivity,
+                            time = arabgulf.npp.bbox$time,
+                            extent = ext(unlist(arabgulf.extent)))
+
+
+
+### Depth ###
+
+nwa.bathym <- get_elev(rast(ext(unlist(nwa.extent)), crs = 'EPSG:4326', res = 0.004166667),
+                        maxcell = 5e8)
+satlantic.bathym <- get_elev(rast(ext(unlist(satlantic.extent)), crs = 'EPSG:4326',
+                                  res = 0.004166667),
+                             maxcell = 5e8)
+arabgulf.bathym <- get_elev(rast(ext(unlist(arabgulf.extent)), crs = 'EPSG:4326',
+                                  res = 0.004166667),
+                             maxcell = 5e8)
+
+
+
+
+### Wrangle rasters and make as same resolution and extent ###
+
+nwa.covs <- process_rasters(bathym.rast = nwa.bathym,
+                        sst.rast = nwa.sst,
+                        npp.rast = nwa.npp)
+
+satlantic.covs <- process_rasters(bathym.rast = satlantic.bathym,
+                        sst.rast = satlantic.sst,
+                        npp.rast = satlantic.npp)
+
+arabgulf.covs <- process_rasters(bathym.rast = arabgulf.bathym,
+                        sst.rast = arabgulf.sst,
+                        npp.rast = arabgulf.npp)
+
+```
+
+
+```{r}
+#| label: predict-sdm
+#| message: false
+#| warning: false
+#| echo: false
+
+# Define vector of covar names
+covars <- c("log.bathym","log.npp","log.sst")
+
+# Define 1D meshes to be used for prediction across sites
+mesh.seq <- list(log.bathym = c(0.001, 5500),
+                 log.npp = c(20, 200000),
+                 log.sst = c(12,35)) %>%
+  map(log)
+
+
+# Predict from HGPR model
+nwa.mod.pred <- predict.hgpr(cov_list = nwa.covs, model_fit = hgpr.fit, covars = covars,
+                         mesh.seq = mesh.seq, nbasis = 5, degree = 2)
+satlantic.mod.pred <- predict.hgpr(cov_list = satlantic.covs, model_fit = hgpr.fit,
+                                   covars = covars, mesh.seq = mesh.seq, nbasis = 5,
+                                   degree = 2)
+arabgulf.mod.pred <- predict.hgpr(cov_list = arabgulf.covs, model_fit = hgpr.fit,
+                                  covars = covars, mesh.seq = mesh.seq, nbasis = 5,
+                                  degree = 2)
+
+# Normalize predictions on 0-1 scale
+nwa.mod.pred2 <- normalize(nwa.mod.pred)
+satlantic.mod.pred2 <- normalize(satlantic.mod.pred)
+arabgulf.mod.pred2 <- normalize(arabgulf.mod.pred)
+
+# Break rasters into bins used for Boyce Index
+# nwa.mod.pred3 <- classify(nwa.mod.pred2, seq(0, 1, by = 0.1)) + 1
+# satlantic.mod.pred3 <- classify(satlantic.mod.pred2, seq(0, 1, by = 0.1)) + 1
+# arabgulf.mod.pred3 <- classify(arabgulf.mod.pred2, seq(0, 1, by = 0.1)) + 1
+
+
+```
+
+
+
+### Northwest Atlantic
+```{r}
+#| label: nwa-map
+#| echo: false
+#| column: screen-inset
+#| fig-height: 6
+
+sdm.pal <- colorNumeric("viridis",
+                        domain = 0:1,
+                        na.color = "transparent")
+
+# Leaflet map of SDM predictions
+leaflet() %>%
+  addProviderTiles(provider = providers$Esri.WorldImagery, group = "World Imagery",
+                   options = tileOptions(zIndex = -10)) %>%
+  addProviderTiles(provider = providers$Esri.OceanBasemap, group = "Ocean Basemap",
+                   options = tileOptions(zIndex = -10)) %>%
+  addProviderTiles(provider = providers$OpenStreetMap, group = "Open Street Map",
+                   options = tileOptions(zIndex = -10)) %>%
+  addLayersControl(baseGroups = c("World Imagery", "Ocean Basemap", "Open Street Map"),
+                   overlayGroups = c("SDM"),
+                   options = layersControlOptions(collapsed = TRUE, autoZIndex = FALSE)) %>% 
+  addRasterImage(x = nwa.mod.pred2, colors = sdm.pal, opacity = 1,
+                 group = "SDM") %>%
+  addImageQuery(nwa.mod.pred2, group = "SDM", project = TRUE) %>%
+  addLegend(colors = viridis(n = 10, direction = -1),
+            labels = c("High", rep("", 8), "Low"),
+            title = "Relative Density") %>%
+  addMouseCoordinates() %>% 
+  addScaleBar(position = "bottomleft") %>%
+  addMeasure(position = "topleft",
+             primaryLengthUnit = "kilometers",
+             primaryAreaUnit = "hectares",
+             activeColor = "#3D535D",
+             completedColor = "#7D4479")
+
+```
+
+
+### Southwest Atlantic
+```{r}
+#| label: satlantic-map
+#| echo: false
+#| column: screen-inset
+#| fig-height: 6
+
+sdm.pal <- colorNumeric("viridis",
+                        domain = 0:1,
+                        na.color = "transparent")
+
+# Leaflet map of SDM predictions
+leaflet() %>%
+  addProviderTiles(provider = providers$Esri.WorldImagery, group = "World Imagery",
+                   options = tileOptions(zIndex = -10)) %>%
+  addProviderTiles(provider = providers$Esri.OceanBasemap, group = "Ocean Basemap",
+                   options = tileOptions(zIndex = -10)) %>%
+  addProviderTiles(provider = providers$OpenStreetMap, group = "Open Street Map",
+                   options = tileOptions(zIndex = -10)) %>%
+  addLayersControl(baseGroups = c("World Imagery", "Ocean Basemap", "Open Street Map"),
+                   overlayGroups = c("SDM"),
+                   options = layersControlOptions(collapsed = TRUE, autoZIndex = FALSE)) %>% 
+  addRasterImage(x = satlantic.mod.pred2, colors = sdm.pal, opacity = 1,
+                 group = "SDM") %>%
+  addImageQuery(satlantic.mod.pred2, group = "SDM", project = TRUE) %>%
+  addLegend(colors = viridis(n = 10, direction = -1),
+            labels = c("High", rep("", 8), "Low"),
+            title = "Relative Density") %>%
+  addMouseCoordinates() %>% 
+  addScaleBar(position = "bottomleft") %>%
+  addMeasure(position = "topleft",
+             primaryLengthUnit = "kilometers",
+             primaryAreaUnit = "hectares",
+             activeColor = "#3D535D",
+             completedColor = "#7D4479")
+
+```
+
+
+### Arabian Gulf
+```{r}
+#| label: arabgulf-map
+#| echo: false
+#| column: screen-inset
+#| fig-height: 6
+
+sdm.pal <- colorNumeric("viridis",
+                        domain = 0:1,
+                        na.color = "transparent")
+
+# Leaflet map of SDM predictions
+leaflet() %>%
+  addProviderTiles(provider = providers$Esri.WorldImagery, group = "World Imagery",
+                   options = tileOptions(zIndex = -10)) %>%
+  addProviderTiles(provider = providers$Esri.OceanBasemap, group = "Ocean Basemap",
+                   options = tileOptions(zIndex = -10)) %>%
+  addProviderTiles(provider = providers$OpenStreetMap, group = "Open Street Map",
+                   options = tileOptions(zIndex = -10)) %>%
+  addLayersControl(baseGroups = c("World Imagery", "Ocean Basemap", "Open Street Map"),
+                   overlayGroups = c("SDM"),
+                   options = layersControlOptions(collapsed = TRUE, autoZIndex = FALSE)) %>% 
+  addRasterImage(x = arabgulf.mod.pred2, colors = sdm.pal, opacity = 1,
+                 group = "SDM") %>%
+  addImageQuery(arabgulf.mod.pred2, group = "SDM", project = TRUE) %>%
+  addLegend(colors = viridis(n = 10, direction = -1),
+            labels = c("High", rep("", 8), "Low"),
+            title = "Relative Density") %>%
+  addMouseCoordinates() %>% 
+  addScaleBar(position = "bottomleft") %>%
+  addMeasure(position = "topleft",
+             primaryLengthUnit = "kilometers",
+             primaryAreaUnit = "hectares",
+             activeColor = "#3D535D",
+             completedColor = "#7D4479")
+
+```
+
+
+
+## References
+
+Bear, R., Rintoul, D., Snyder, B., Smith-Caldas, M., Herren, C., &
+Horne, E. (2022). Principles of Biology. OpenStax CNX.
+http://cnx.org/contents/db89c8f8-a27c-4685-ad2a-19d11a2a7e2e\@24.18.
+
+Chase, J. M. (2003). Community assembly: when should history matter?.
+*Oecologia*, 136, 489-498.
+
+Hutchinson, G. E. (1957). 1957: Concluding remarks, *Cold Spring Harbor
+Symposium on Quantitative Biology* 22, 415-27.
+
+Latimer, A. M., Banerjee, S., Sang Jr, H., Mosher, E. S., & Silander Jr,
+J. A. (2009). Hierarchical models facilitate spatial analysis of large
+data sets: a case study on invasive plant species in the northeastern
+United States. *Ecology Letters*, 12(2), 144-154.
+
+Leibold, M. A. (1995). The niche concept revisited: mechanistic models
+and community context. *Ecology*, 76(5), 1371-1382.
+
+Matthiopoulos, J., Fieberg, J. R., & Aarts, G. (2023). Species-Habitat
+Associations: Spatial data, predictive models, and ecological insights,
+2nd Edition. University of Minnesota Libraries Publishing. Retrieved
+from the University of Minnesota Digital Conservancy,
+https://hdl.handle.net/11299/217469.
+
+Peterson, A. T. (2003). Predicting the geography of species' invasions
+via ecological niche modeling. *The Quarterly Review of Biology*, 78(4),
+419-433.
+
+Saito, V. S., Perkins, D. M., & Kratina, P. (2021). A metabolic
+perspective of stochastic community assembly. *Trends in Ecology &
+Evolution*, 36(4), 280-283.
+
+Williams, E. E. (1983). Ecomorphs, faunas, island size, and diverse end
+points in island radiations of *Anolis*. In Lizard Ecology: Studies of a
+Model Organism (pp. 326-370). Harvard University Press.
