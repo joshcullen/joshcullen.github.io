@@ -24,8 +24,7 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Install GDAL
-        shell: bash -el {0}
-	      run: |
+        run: |
 	       sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
 	       sudo apt-get update
 	       sudo apt-get install libgdal-dev libgeos-dev libproj-dev 
