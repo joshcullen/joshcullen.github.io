@@ -28,10 +28,11 @@ jobs:
         with:
           r-version: '4.2.2'
 
-      - name: Install R Dependencies
-        uses: r-lib/actions/setup-renv@v2
-        with:
-          cache-version: 1
+      - name: Install dependencies
+        run: |
+          remotes::install_deps(dependencies = TRUE)
+          install.packages("INLA", repos=c(getOption("repos"), INLA="https://inla.r-inla-download.org/R/stable"), dep=TRUE)
+        shell: Rscript {0}
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
