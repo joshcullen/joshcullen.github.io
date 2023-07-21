@@ -20,25 +20,6 @@
       ],
       "Hash": "b2866e62bab9378c3cc9476a1954226b"
     },
-    "INLA": {
-      "Package": "INLA",
-      "Version": "22.12.16",
-      "Source": "unknown",
-      "Requirements": [
-        "Matrix",
-        "R",
-        "foreach",
-        "grDevices",
-        "graphics",
-        "methods",
-        "parallel",
-        "sp",
-        "splines",
-        "stats",
-        "utils"
-      ],
-      "Hash": "64620941f85274eb943f53b350ec2394"
-    },
     "KernSmooth": {
       "Package": "KernSmooth",
       "Version": "2.23-20",
@@ -337,16 +318,6 @@
       ],
       "Hash": "266ade1cfa96f0678c7576c9df040f01"
     },
-    "codetools": {
-      "Package": "codetools",
-      "Version": "0.2-18",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R"
-      ],
-      "Hash": "019388fc48e48b3da0d3a76ff94608a8"
-    },
     "colorspace": {
       "Package": "colorspace",
       "Version": "2.1-0",
@@ -590,19 +561,6 @@
         "tibble"
       ],
       "Hash": "1a0a9a3d5083d0d573c4214576f1e690"
-    },
-    "foreach": {
-      "Package": "foreach",
-      "Version": "1.5.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "codetools",
-        "iterators",
-        "utils"
-      ],
-      "Hash": "618609b42c9406731ead03adf5379850"
     },
     "fs": {
       "Package": "fs",
@@ -949,17 +907,6 @@
         "utils"
       ],
       "Hash": "0080607b4a1a7b28979aecef976d8bc2"
-    },
-    "iterators": {
-      "Package": "iterators",
-      "Version": "1.0.14",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "utils"
-      ],
-      "Hash": "8954069286b4b2b0d023d1b288dce978"
     },
     "jquerylib": {
       "Package": "jquerylib",
@@ -1686,9 +1633,9 @@
     },
     "sf": {
       "Package": "sf",
-      "Version": "1.0-12",
+      "Version": "1.0-14",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "DBI",
         "R",
@@ -1705,7 +1652,7 @@
         "units",
         "utils"
       ],
-      "Hash": "5b41b4f0bd22b38661d82205a87deb4b"
+      "Hash": "e2111252a76984ca50bf8d6314348681"
     },
     "sfheaders": {
       "Package": "sfheaders",
