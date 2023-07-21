@@ -12,6 +12,10 @@ An R package for inferring latent behavioral states from animal movement data (t
 
 # Shiny Applications
 
+### [Green turtle occurrences compared to environmental layers](https://joshcullen.shinyapps.io/green_turtle_tracks/)
+
+This app provides an interactive map for exploring green turtle (*Chelonia mydas*) tracks in the Gulf of Mexico, as well as along the coasts of Brazil and Qatar. Additionally, environmental layers (depth, net primary productivity, sea surface temperature) can be explored compared to turtle locations at each region on a monthly basis. These data are part of a study developing a transferable species distribution modeling approach.
+
 ### [Exploration of animal movement data](https://joshcullen.shinyapps.io/segmentation_of_NSD/)
 
 This app provides an interactive and dynamic platform for users to upload and visually explore their animal telemetry dataset. Options are provided to filter by each column of the uploaded data, as well as to interactively subset the individuals and time period that is being mapped. An interactive time series plot is linked to a Leaflet map for exploring particular patterns of interest within the data.

@@ -3,8 +3,6 @@ title: "Green Turtle Habitat Selection and Movement Patterns"
 format: html
 ---
 
-`Add Leaflet map to show predictions of green turtle relative density that is scheduled to update each month`
-
 ## Ecological niches and habitat selection
 
 Characterizing the distributions of animals over space and time is
@@ -101,7 +99,7 @@ of the three study regions: Gulf of Mexico, Brazil, and Qatar. This interactive 
 
 ## Spatial predictions of green turtle density
 
-Based on a transferable species distribution model I developed as part of an NSF-funded project, predictions of relative green turtle density are shown below for each of the three study regions. Values of depth, SST, and NPP are used to generate these predictions on a monthly basis. Code for generating these spatial predictions can be found [here](https://github.com/joshcullen/joshcullen.github.io/Research/GreenTurtleSDM.qmd). Predictions in below maps are shown for **`r month.name[Sys.Date() |> lubridate::month() - 1]`** **`r Sys.Date() |> lubridate::year()`**.
+Based on a transferable species distribution model I developed as part of an NSF-funded project, predictions of relative green turtle density are shown below for each of the three study regions. Values of depth, SST, and NPP are used to generate these predictions on a monthly basis. Code for generating these spatial predictions can be found [here](https://github.com/joshcullen/joshcullen.github.io/blob/master/Research/GreenTurtleSDM.qmd). Predictions in below maps are shown for **`r month.name[Sys.Date() |> lubridate::month() - 1]`** **`r Sys.Date() |> lubridate::year()`**.
 
 
 ```{r}
@@ -113,16 +111,13 @@ Based on a transferable species distribution model I developed as part of an NSF
 library(tidyverse)
 library(lubridate)
 library(vroom)
-# library(sf)
 library(leaflet)
 library(leafem)
-# library(leaflet.extras)
 library(INLA)
 library(terra)  #terra v1.7.41
 library(rerddapXtracto)
 library(cmocean)
 library(viridis)
-# library(htmltools)
 
 source("leaflet_utils.R")  #helper functions
 
