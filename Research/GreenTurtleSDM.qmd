@@ -311,7 +311,7 @@ leaflet() %>%
                    options = layersControlOptions(collapsed = TRUE, autoZIndex = FALSE)) %>% 
   addRasterImage(x = nwa.mod.pred2, colors = sdm.pal, opacity = 1,
                  group = "SDM") %>%
-  addImageQuery(nwa.mod.pred2, group = "SDM", project = TRUE) %>%
+  # addImageQuery(nwa.mod.pred2, group = "SDM", project = TRUE) %>%
   addLegend(colors = viridis(n = 10, direction = -1),
             labels = c("High", rep("", 8), "Low"),
             title = "Relative Density") %>%
@@ -350,7 +350,7 @@ leaflet() %>%
                    options = layersControlOptions(collapsed = TRUE, autoZIndex = FALSE)) %>% 
   addRasterImage(x = satlantic.mod.pred2, colors = sdm.pal, opacity = 1,
                  group = "SDM") %>%
-  addImageQuery(satlantic.mod.pred2, group = "SDM", project = TRUE) %>%
+  # addImageQuery(satlantic.mod.pred2, group = "SDM", project = TRUE) %>%
   addLegend(colors = viridis(n = 10, direction = -1),
             labels = c("High", rep("", 8), "Low"),
             title = "Relative Density") %>%
@@ -389,7 +389,7 @@ leaflet() %>%
                    options = layersControlOptions(collapsed = TRUE, autoZIndex = FALSE)) %>% 
   addRasterImage(x = arabgulf.mod.pred2, colors = sdm.pal, opacity = 1,
                  group = "SDM") %>%
-  addImageQuery(arabgulf.mod.pred2, group = "SDM", project = TRUE) %>%
+  # addImageQuery(arabgulf.mod.pred2, group = "SDM", project = TRUE) %>%
   addLegend(colors = viridis(n = 10, direction = -1),
             labels = c("High", rep("", 8), "Low"),
             title = "Relative Density") %>%
