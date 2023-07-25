@@ -43,8 +43,10 @@ jobs:
           remotes::install_github("r-spatial/sf")
         shell: Rscript {0}
         
-      - name: Install dependencies from renv
-        uses: r-lib/actions/setup-renv@v2
+      - name: Install binary dependencies
+        run: |
+          remotes::install_deps(dependencies = TRUE, type="binary")
+        shell: Rscript {0}
         
       - name: Install INLA
         run: |
