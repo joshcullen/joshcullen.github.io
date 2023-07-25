@@ -3,7 +3,8 @@
   "external.libraries": [],
   "ignored.packages": [
     "sf",
-    "INLA"
+    "INLA",
+    "lwgeom"
   ],
   "package.dependency.fields": [
     "Imports",

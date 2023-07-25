@@ -37,10 +37,11 @@ jobs:
         with:
           r-version: '4.2.2'
       
-      - name: Install sf
+      - name: Install sf and lwgeom
         run: |
           install.packages("remotes")
           remotes::install_github("r-spatial/sf")
+          remotes::install_github("r-spatial/lwgeom")
         shell: Rscript {0}
         
       - name: Install dependencies from renv
