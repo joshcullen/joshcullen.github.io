@@ -41,12 +41,6 @@ jobs:
       - name: Install dependencies from renv
         uses: r-lib/actions/setup-renv@v2
         
-      - name: Install sf
-        run: |
-          install.packages("remotes")
-          remotes::install_github("r-spatial/sf")
-        shell: Rscript {0}
-        
       - name: Install INLA
         run: |
           install.packages("INLA", repos=c(getOption("repos"), INLA="https://inla.r-inla-download.org/R/stable"), dep=TRUE)
