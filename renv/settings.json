@@ -2,7 +2,6 @@
   "bioconductor.version": null,
   "external.libraries": [],
   "ignored.packages": [
-    "sf",
     "INLA"
   ],
   "package.dependency.fields": [
