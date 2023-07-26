@@ -28,7 +28,7 @@ jobs:
 
       - name: Install GDAL, PROJ, GEOS and other bindings
         run: |
-          brew install pkg-config --libs --static proj
+          brew install pkg-config --static proj
           brew install gdal
           brew install udunits
           
