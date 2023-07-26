@@ -107,6 +107,7 @@ Based on a transferable species distribution model I developed as part of an NSF
 #| message: false
 #| warning: false
 #| echo: false
+#| results: hide
 
 library(tidyverse)
 library(lubridate)
