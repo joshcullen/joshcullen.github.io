@@ -1080,15 +1080,20 @@
     "lwgeom": {
       "Package": "lwgeom",
       "Version": "0.2-13",
-      "Source": "Repository",
-      "Repository": "RSPM",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "lwgeom",
+      "RemoteUsername": "r-spatial",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "d96c41bcf885b802daf998358c106af0e7112e2d",
       "Requirements": [
         "R",
         "Rcpp",
         "sf",
         "units"
       ],
-      "Hash": "9804362cc0267990ac61a85edeca73ed"
+      "Hash": "d65b6ff07139afad3c42a2ab9a9a1cba"
     },
     "magrittr": {
       "Package": "magrittr",
