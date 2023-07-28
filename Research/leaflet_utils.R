@@ -526,13 +526,34 @@ normalize <- function(x) {
 
 # Function to download MUR SST data from ERDDAP
 sst.url <- function(date, extent) {
-  paste0("https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41mday.csv?sst%5B(", date,
+  paste0("https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41mday.nc?sst%5B(", date,
          "):1:(",
          date,
          ")%5D%5B(",
          extent$ymin,
          "):1:(",
          extent$ymax,
+         ")%5D%5B(",
+         extent$xmin,
+         "):1:(",
+         extent$xmax,
+         ")%5D"
+  )
+}
+
+
+###################################
+
+# Function to download NPP data from ERDDAP
+npp.url <- function(date, extent) {
+  paste0("https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1ppmday.nc?productivity%5B(",
+         date,
+         "):1:(",
+         date,
+         ")%5D%5B(0.0):1:(0.0)%5D%5B(",
+         extent$ymax,
+         "):1:(",
+         extent$ymin,
          ")%5D%5B(",
          extent$xmin,
          "):1:(",
