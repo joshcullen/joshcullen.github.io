@@ -28,7 +28,7 @@ While there are a variety of ways in which researchers have studied the
 ecological niches of fish, wildlife, and plants (such as stomach
 contents, natural biochemical tracers, surveys of animal occurrences),
 this study used a large dataset of animal tracking data collected with
-satellite tags. These satellite tags were deployed on the shells of 99
+satellite tags. These satellite tags were deployed on 99
 green sea turtles (*Chelonia mydas*) that were captured and released at
 three distant regions: the Gulf of Mexico, Brazil (Southwest Atlantic),
 and Qatar (Arabian Gulf).
@@ -86,12 +86,12 @@ that rely on seagrasses for food and shelter.
 
 ## Relating green turtle movements to environmental factors
 
-Below is an interactive map that allow you to explore the
+Below is an interactive map that allows you to explore the
 observed locations of juvenile and adult green turtles with respect to the three variables
 that were considered by this study as important drivers of green turtle
 occurrence: water depth, sea surface temperature (SST), and net primary
 productivity (NPP; a proxy for plant biomass). These maps are shown for each
-of the three study regions: Gulf of Mexico, Brazil, and Qatar. This interactive map can also be found at <https://joshcullen.shinyapps.io/green_turtle_tracks/>.
+of the three study regions: Gulf of Mexico, Brazil, and Qatar. This interactive map can also be found at <https://joshcullen.shinyapps.io/green_turtle_tracks/>. *This study was conducted in collaboration with Mariana Fuentes (Florida State University), Armando Santos (Florida State University), Christopher Marshall (Texas A&M University), Margaret Lamont (USGS), Christopher Sasso (NOAA), Camila Domit (Universidade Federal Do Paraná), and Mehsin Al Ansi (Qatar University).*
 
 <iframe src="https://joshcullen.shinyapps.io/green_turtle_tracks/" class="screen-inset" width="100%" height="750px" data-external=1></iframe>
 
@@ -380,6 +380,9 @@ leaflet() %>%
 
 ```
 
+<br><br><br>
+
+*This material is based upon work supported by the National Science Foundation under Grant Number 2126583. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.*
 
 
 ## References

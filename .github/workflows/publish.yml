@@ -4,7 +4,7 @@ on:
   schedule:
     # * is a special character in YAML so you have to quote this string
     # https://crontab.cronhub.io
-    - cron:  '0 0 * * 1'  #scheduled to run at 12 am on Mondays
+    - cron:  '0 0 * * 1'  #scheduled to run at 12 am UTC on Mondays
   workflow_dispatch:
   
 
