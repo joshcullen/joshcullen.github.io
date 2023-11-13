@@ -1631,15 +1631,20 @@
     },
     "terra": {
       "Package": "terra",
-      "Version": "1.7-55",
-      "Source": "Repository",
-      "Repository": "RSPM",
+      "Version": "1.7-60",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "terra",
+      "RemoteUsername": "rspatial",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "a813b712aa902ca67c1d43ad4149f5b20370ec73",
       "Requirements": [
         "R",
         "Rcpp",
         "methods"
       ],
-      "Hash": "c011cc748506148c793428eb8ec101f9"
+      "Hash": "579c1d2970327ea0c4c42d35374415b0"
     },
     "textshaping": {
       "Package": "textshaping",
