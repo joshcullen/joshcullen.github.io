@@ -2,9 +2,15 @@
 title: "Publications"
 ---
 
+## 2024
+
+Hardin EE, **Cullen JA**, Fuentes MMPB. (2024). Comparing acoustic and satellite telemetry: an analysis quantifying the space use of *Chelonia mydas* in Bimini, Bahamas. *Royal Society Open Science*, 11:231152. <https://doi.org/10.1098/rsos.231152>. <a href='Hardin et al 2024 space use comparison acoustic satellite telemetry.pdf'> \[PDF\]</a>
+
 ## 2023
 
-Santos AJB, **Cullen J**, Vieira DHG, Lima EHSM, Quennessen V, Santos EAPd, Bellini C, Ramos R and Fuentes MMPB. (2023) Decoding the internesting movements of marine turtles using a fine-scale behavioral state approach. *Frontiers in Ecology and Evolution*, 11:1229144. <https://doi.org/10.3389/fevo.2023.1229144>. <a href='Santos et al 2023 decoding fine scale internesting movements of hawksbills.pdf'>\[PDF\]</a>
+Weber S, **Cullen JA**, Fuentes MMPB. (2023). Isotopic niche overlap among foraging marine turtle species in the Gulf of Mexico. *Ecology and Evolution*, 13:e10741. <https://doi.org/10.1002/ece3.10741>. <a href='Weber et al 2023 isotopic niche overlap marine turtles.pdf'>\[PDF\]</a>
+
+Santos AJB, **Cullen J**, Vieira DHG, Lima EHSM, Quennessen V, Santos EAPd, Bellini C, Ramos R, Fuentes MMPB. (2023). Decoding the internesting movements of marine turtles using a fine-scale behavioral state approach. *Frontiers in Ecology and Evolution*, 11:1229144. <https://doi.org/10.3389/fevo.2023.1229144>. <a href='Santos et al 2023 decoding fine scale internesting movements of hawksbills.pdf'>\[PDF\]</a>
 
 **Cullen JA**, Attias N, Desbiez ALJ, Valle D. (2023). Biologging as an important tool to uncover behaviors of cryptic species: An analysis of giant armadillos (*Priodontes maximus*). *PeerJ*, 11:e14726. <https://doi.org/10.7717/peerj.14726>. <a href='Cullen et al 2023 state-habitat associations of giant armadillos.pdf'>\[PDF\]</a>
 

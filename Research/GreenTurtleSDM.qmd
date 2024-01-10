@@ -116,12 +116,9 @@ arabgulf.sst <- rast(sst.url(date = rast.date, extent = arabgulf.extent))
 
 
 ### NPP ###
-nwa.npp <- rast(npp.url(date = rast.date, extent = nwa.extent)) |> 
-  flip()
-satlantic.npp <- rast(npp.url(date = rast.date, extent = satlantic.extent)) |> 
-  flip()
-arabgulf.npp <- rast(npp.url(date = rast.date, extent = arabgulf.extent)) |> 
-  flip()
+nwa.npp <- rast(npp.url(date = rast.date, extent = nwa.extent))
+satlantic.npp <- rast(npp.url(date = rast.date, extent = satlantic.extent))
+arabgulf.npp <- rast(npp.url(date = rast.date, extent = arabgulf.extent))
 
 
 
