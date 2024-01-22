@@ -1,6 +1,6 @@
 ---
 title: Curriculum vitae
-date: 2023-01-22
+date: today
 published-title: CV last updated
 engine: knitr 
 cv:
