@@ -1515,13 +1515,8 @@
     "sf": {
       "Package": "sf",
       "Version": "1.0-15",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "sf",
-      "RemoteUsername": "r-spatial",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "6e39d6dca180977c16fc0cbce69b9381ec1d9335",
+      "Source": "Repository",
+      "Repository": "RSPM",
       "Requirements": [
         "DBI",
         "R",
@@ -1538,7 +1533,7 @@
         "units",
         "utils"
       ],
-      "Hash": "3b68dbb92695d9413ece81a88496183f"
+      "Hash": "f432b3379fb1a47046e253468b6b6b6d"
     },
     "sfheaders": {
       "Package": "sfheaders",
@@ -1636,20 +1631,15 @@
     },
     "terra": {
       "Package": "terra",
-      "Version": "1.7-60",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "terra",
-      "RemoteUsername": "rspatial",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "a813b712aa902ca67c1d43ad4149f5b20370ec73",
+      "Version": "1.7-73",
+      "Source": "Repository",
+      "Repository": "https://rspatial.r-universe.dev",
       "Requirements": [
         "R",
         "Rcpp",
         "methods"
       ],
-      "Hash": "579c1d2970327ea0c4c42d35374415b0"
+      "Hash": "b97b7587be8fd0a2ae8fe3db30e78921"
     },
     "textshaping": {
       "Package": "textshaping",
