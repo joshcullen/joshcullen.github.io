@@ -1633,7 +1633,7 @@
       "Package": "terra",
       "Version": "1.7-71",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "Rcpp",
