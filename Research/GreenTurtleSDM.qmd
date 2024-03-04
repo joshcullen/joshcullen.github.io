@@ -39,7 +39,6 @@ Below is an interactive map that allows you to explore the observed locations of
 #| results: hide
 
 library(tidyverse)
-library(lubridate)
 library(vroom)
 library(leaflet)
 library(leafem)

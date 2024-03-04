@@ -4,6 +4,8 @@ title: "Publications"
 
 ## 2024
 
+Valle D, Attias N, **Cullen JA**, Hooten MB, Giroux A, Oliveira‐Santos LGR, Desbiez ALJ, Fletcher Jr RJ. (2024). Bridging the gap between movement data and connectivity analysis using the Time-Explicit Habitat Selection (TEHS) model. *Movement Ecology*, 12:19. <https://doi.org/10.1186/s40462-024-00461-1>. <a href='Valle et al 2024 time-explicit habitat selection for connectivity analysis.pdf'> \[PDF\]</a>
+
 Hardin EE, **Cullen JA**, Fuentes MMPB. (2024). Comparing acoustic and satellite telemetry: an analysis quantifying the space use of *Chelonia mydas* in Bimini, Bahamas. *Royal Society Open Science*, 11:231152. <https://doi.org/10.1098/rsos.231152>. <a href='Hardin et al 2024 space use comparison acoustic satellite telemetry.pdf'> \[PDF\]</a>
 
 ## 2023

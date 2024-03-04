@@ -81,7 +81,7 @@
     "href": "Research/GreenTurtleSDM.html#spatial-predictions-of-green-turtle-density",
     "title": "Green Turtle Habitat Selection and Movement Patterns",
     "section": "Spatial predictions of green turtle density",
-    "text": "Spatial predictions of green turtle density\nBased on a transferable species distribution model I developed as part of an NSF-funded project, predictions of relative green turtle density are shown below for each of the three study regions. Values of depth, SST, and NPP are used to generate these predictions on a monthly basis. Code for generating these spatial predictions can be found here. Predictions in below maps are shown for January 2024.\n\nNorthwest Atlantic\n\n\n\n\n\n\n\n\nSouthwest Atlantic\n\n\n\n\n\n\n\n\nArabian Gulf\n\n\n\n\n\n\n\nThis material is based upon work supported by the National Science Foundation under Grant Number 2126583. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation."
+    "text": "Spatial predictions of green turtle density\nBased on a transferable species distribution model I developed as part of an NSF-funded project, predictions of relative green turtle density are shown below for each of the three study regions. Values of depth, SST, and NPP are used to generate these predictions on a monthly basis. Code for generating these spatial predictions can be found here. Predictions in below maps are shown for February 2024.\n\nNorthwest Atlantic\n\n\n\n\n\n\n\n\nSouthwest Atlantic\n\n\n\n\n\n\n\n\nArabian Gulf\n\n\n\n\n\n\n\nThis material is based upon work supported by the National Science Foundation under Grant Number 2126583. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation."
   },
   {
     "objectID": "Research/GreenTurtleSDM.html#references",
@@ -95,14 +95,14 @@
     "href": "Publications/index.html",
     "title": "Publications",
     "section": "",
-    "text": "Hardin EE, Cullen JA, Fuentes MMPB. (2024). Comparing acoustic and satellite telemetry: an analysis quantifying the space use of Chelonia mydas in Bimini, Bahamas. Royal Society Open Science, 11:231152. https://doi.org/10.1098/rsos.231152.  [PDF]"
+    "text": "Valle D, Attias N, Cullen JA, Hooten MB, Giroux A, Oliveira‐Santos LGR, Desbiez ALJ, Fletcher Jr RJ. (2024). Bridging the gap between movement data and connectivity analysis using the Time-Explicit Habitat Selection (TEHS) model. Movement Ecology, 12:19. https://doi.org/10.1186/s40462-024-00461-1.  [PDF]\nHardin EE, Cullen JA, Fuentes MMPB. (2024). Comparing acoustic and satellite telemetry: an analysis quantifying the space use of Chelonia mydas in Bimini, Bahamas. Royal Society Open Science, 11:231152. https://doi.org/10.1098/rsos.231152.  [PDF]"
   },
   {
     "objectID": "Publications/index.html#section",
     "href": "Publications/index.html#section",
     "title": "Publications",
     "section": "",
-    "text": "Hardin EE, Cullen JA, Fuentes MMPB. (2024). Comparing acoustic and satellite telemetry: an analysis quantifying the space use of Chelonia mydas in Bimini, Bahamas. Royal Society Open Science, 11:231152. https://doi.org/10.1098/rsos.231152.  [PDF]"
+    "text": "Valle D, Attias N, Cullen JA, Hooten MB, Giroux A, Oliveira‐Santos LGR, Desbiez ALJ, Fletcher Jr RJ. (2024). Bridging the gap between movement data and connectivity analysis using the Time-Explicit Habitat Selection (TEHS) model. Movement Ecology, 12:19. https://doi.org/10.1186/s40462-024-00461-1.  [PDF]\nHardin EE, Cullen JA, Fuentes MMPB. (2024). Comparing acoustic and satellite telemetry: an analysis quantifying the space use of Chelonia mydas in Bimini, Bahamas. Royal Society Open Science, 11:231152. https://doi.org/10.1098/rsos.231152.  [PDF]"
   },
   {
     "objectID": "Publications/index.html#section-1",
