@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "software_shiny.html",
-    "href": "software_shiny.html",
-    "title": "Software & Shiny Apps",
-    "section": "",
-    "text": "Software\n\nbayesmove\nAn R package for inferring latent behavioral states from animal movement data (telemetry and/or biologging) using non-parametric Bayesian methods. This includes features for pre-processing and analysis of data, as well as the visualization of model results. This framework does not rely on standard parametric probability density functions, which provides flexibility during model fitting. Further details regarding part of this framework can be found in Cullen et al. (2022) and Valle et al. (2022).\n\n\n\nShiny Applications\n\nGreen turtle occurrences compared to environmental layers\nThis app provides an interactive map for exploring green turtle (Chelonia mydas) tracks in the Gulf of Mexico, as well as along the coasts of Brazil and Qatar. Additionally, environmental layers (depth, net primary productivity, sea surface temperature) can be explored compared to turtle locations at each region on a monthly basis. These data are part of a study developing a transferable species distribution modeling approach.\n\n\nExploration of animal movement data\nThis app provides an interactive and dynamic platform for users to upload and visually explore their animal telemetry dataset. Options are provided to filter by each column of the uploaded data, as well as to interactively subset the individuals and time period that is being mapped. An interactive time series plot is linked to a Leaflet map for exploring particular patterns of interest within the data.\n\n\nInvasive species expert elicitation\nThis app was created to assist with data collection for an expert elicitation workshop on current distributions of invasive species in the southeast US. Users are first asked to define habitat suitability for a number of classes from the National Land Cover Database per species. Next, users are asked to define the intensity of species occurrence throughout the region on a raster map. I developed this novel interactive tool to be used as a layer of a Leaflet map. Additional info about the workshop can be found here.\n\n\nHawksbill sea turtle migrations\nSimilar to the ‘Exploration of animal movement data’ Shiny app, this is a simplified version that was used to explore migratory looping movements of hawksbill turtles (Eretmochelys imbricata) in the Arabian Gulf for a study discerning environmental drivers of movement patterns (Marshall et al., 2020). Users can still interactively and dynamically explore each of the tracks via a time series plot and Leaflet map, but with fewer options than the other app."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Josh Cullen, PhD",
@@ -26,27 +19,6 @@
     "title": "Josh Cullen, PhD",
     "section": "",
     "text": "PhD Wildlife & Fisheries Sciences, 2019 Texas A&M University\n BS Biological Sciences, 2013 Clemson University"
-  },
-  {
-    "objectID": "workshops.html",
-    "href": "workshops.html",
-    "title": "Workshops & Other Resources",
-    "section": "",
-    "text": "Workshops\n\nGit and GitHub\n\nUsing Git and GitHub with RStudio (2022)\n\n\n\nShiny and Leaflet\n\nInteractive Web-based Visualizations and Decision-Support Tools in Shiny (2022)\n\n\n\nAnimal Movement and Spatial Ecology\n\nSoutheast Invasive Species Expert Elicitation (2022)\nSpace-Use and Behavioral State Estimation (2022)\n\n\n\n\nOther Resources\nHere are a collection of previous and ongoing webinar series I helped co-host as a collaborative effort between the Statistical Ecology section of the Ecological Society of America (ESA) and the Ecological Forecasting Initiative (EFI).\n\nStatistical Methods Seminar Series (2021 - present)\nTaking Your R Shiny Apps To The Next Level (2021)"
-  },
-  {
-    "objectID": "Research/index.html",
-    "href": "Research/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "This project involved characterizing the resource use (or ecological niche) of juvenile and adult green turtles (Chelonia mydas) from the Gulf of Mexico, Brazil, and Qatar. Ultimately the aims of this project were focused on developing a statistical model that could be used to predict relative green turtle density at locations distant from where the turtles were tracked in this study. Interactive maps are included to show where green turtles moved at each of these sites with respect to environmental variables."
-  },
-  {
-    "objectID": "Research/index.html#green-turtle-habitat-selection-and-movement-patterns",
-    "href": "Research/index.html#green-turtle-habitat-selection-and-movement-patterns",
-    "title": "Research",
-    "section": "",
-    "text": "This project involved characterizing the resource use (or ecological niche) of juvenile and adult green turtles (Chelonia mydas) from the Gulf of Mexico, Brazil, and Qatar. Ultimately the aims of this project were focused on developing a statistical model that could be used to predict relative green turtle density at locations distant from where the turtles were tracked in this study. Interactive maps are included to show where green turtles moved at each of these sites with respect to environmental variables."
   },
   {
     "objectID": "Research/GreenTurtleSDM.html",
@@ -154,10 +126,38 @@
     "text": "2013\nCullen JA, Maie T, Schoenfuss HL, Blob RW. (2013). Evolutionary Novelty versus Exaptation: Oral Kinematics in Feeding versus Climbing in the Waterfall-Climbing Hawaiian Goby Sicyopterus stimpsoni. PLoS ONE, 8(1): e53274. https://doi.org/10.1371/journal.pone.0053274. [PDF]"
   },
   {
+    "objectID": "software_shiny.html",
+    "href": "software_shiny.html",
+    "title": "Software & Shiny Apps",
+    "section": "",
+    "text": "Software\n\nbayesmove\nAn R package for inferring latent behavioral states from animal movement data (telemetry and/or biologging) using non-parametric Bayesian methods. This includes features for pre-processing and analysis of data, as well as the visualization of model results. This framework does not rely on standard parametric probability density functions, which provides flexibility during model fitting. Further details regarding part of this framework can be found in Cullen et al. (2022) and Valle et al. (2022).\n\n\n\nShiny Applications\n\nGreen turtle occurrences compared to environmental layers\nThis app provides an interactive map for exploring green turtle (Chelonia mydas) tracks in the Gulf of Mexico, as well as along the coasts of Brazil and Qatar. Additionally, environmental layers (depth, net primary productivity, sea surface temperature) can be explored compared to turtle locations at each region on a monthly basis. These data are part of a study developing a transferable species distribution modeling approach.\n\n\nExploration of animal movement data\nThis app provides an interactive and dynamic platform for users to upload and visually explore their animal telemetry dataset. Options are provided to filter by each column of the uploaded data, as well as to interactively subset the individuals and time period that is being mapped. An interactive time series plot is linked to a Leaflet map for exploring particular patterns of interest within the data.\n\n\nInvasive species expert elicitation\nThis app was created to assist with data collection for an expert elicitation workshop on current distributions of invasive species in the southeast US. Users are first asked to define habitat suitability for a number of classes from the National Land Cover Database per species. Next, users are asked to define the intensity of species occurrence throughout the region on a raster map. I developed this novel interactive tool to be used as a layer of a Leaflet map. Additional info about the workshop can be found here.\n\n\nHawksbill sea turtle migrations\nSimilar to the ‘Exploration of animal movement data’ Shiny app, this is a simplified version that was used to explore migratory looping movements of hawksbill turtles (Eretmochelys imbricata) in the Arabian Gulf for a study discerning environmental drivers of movement patterns (Marshall et al., 2020). Users can still interactively and dynamically explore each of the tracks via a time series plot and Leaflet map, but with fewer options than the other app."
+  },
+  {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Workshops & Other Resources",
+    "section": "",
+    "text": "Workshops\n\nGit and GitHub\n\nUsing Git and GitHub with RStudio (2022)\n\n\n\nShiny and Leaflet\n\nInteractive Web-based Visualizations and Decision-Support Tools in Shiny (2022)\n\n\n\nAnimal Movement and Spatial Ecology\n\nSoutheast Invasive Species Expert Elicitation (2022)\nSpace-Use and Behavioral State Estimation (2022)\n\n\n\n\nOther Resources\nHere are a collection of previous and ongoing webinar series I helped co-host as a collaborative effort between the Statistical Ecology section of the Ecological Society of America (ESA) and the Ecological Forecasting Initiative (EFI).\n\nStatistical Methods Seminar Series (2021 - present)\nTaking Your R Shiny Apps To The Next Level (2021)"
+  },
+  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Curriculum vitae",
     "section": "",
     "text": "Download current CV"
+  },
+  {
+    "objectID": "Research/index.html",
+    "href": "Research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "This project involved characterizing the resource use (or ecological niche) of juvenile and adult green turtles (Chelonia mydas) from the Gulf of Mexico, Brazil, and Qatar. Ultimately the aims of this project were focused on developing a statistical model that could be used to predict relative green turtle density at locations distant from where the turtles were tracked in this study. Interactive maps are included to show where green turtles moved at each of these sites with respect to environmental variables."
+  },
+  {
+    "objectID": "Research/index.html#green-turtle-habitat-selection-and-movement-patterns",
+    "href": "Research/index.html#green-turtle-habitat-selection-and-movement-patterns",
+    "title": "Research",
+    "section": "",
+    "text": "This project involved characterizing the resource use (or ecological niche) of juvenile and adult green turtles (Chelonia mydas) from the Gulf of Mexico, Brazil, and Qatar. Ultimately the aims of this project were focused on developing a statistical model that could be used to predict relative green turtle density at locations distant from where the turtles were tracked in this study. Interactive maps are included to show where green turtles moved at each of these sites with respect to environmental variables."
   }
 ]
