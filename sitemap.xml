@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://joshcullen.github.io/index.html</loc>
-    <lastmod>2024-05-13T00:32:37.203Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joshcullen.github.io/cv.html</loc>
-    <lastmod>2024-05-13T00:32:37.023Z</lastmod>
-  </url>
-  <url>
     <loc>https://joshcullen.github.io/software_shiny.html</loc>
-    <lastmod>2024-05-13T00:32:37.203Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joshcullen.github.io/Research/GreenTurtleSDM.html</loc>
-    <lastmod>2024-05-13T00:32:37.015Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joshcullen.github.io/Research/index.html</loc>
-    <lastmod>2024-05-13T00:32:37.015Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joshcullen.github.io/Publications/index.html</loc>
-    <lastmod>2024-05-13T00:32:37.015Z</lastmod>
+    <lastmod>2024-05-20T00:32:27.078Z</lastmod>
   </url>
   <url>
     <loc>https://joshcullen.github.io/workshops.html</loc>
-    <lastmod>2024-05-13T00:32:37.419Z</lastmod>
+    <lastmod>2024-05-20T00:32:27.298Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joshcullen.github.io/index.html</loc>
+    <lastmod>2024-05-20T00:32:27.074Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joshcullen.github.io/Research/index.html</loc>
+    <lastmod>2024-05-20T00:32:26.886Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joshcullen.github.io/Research/GreenTurtleSDM.html</loc>
+    <lastmod>2024-05-20T00:32:26.886Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joshcullen.github.io/cv.html</loc>
+    <lastmod>2024-05-20T00:32:26.894Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joshcullen.github.io/Publications/index.html</loc>
+    <lastmod>2024-05-20T00:32:26.886Z</lastmod>
   </url>
 </urlset>
