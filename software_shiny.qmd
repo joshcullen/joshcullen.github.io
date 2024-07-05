@@ -9,7 +9,6 @@ editor: visual
 
 An R package for inferring latent behavioral states from animal movement data (telemetry and/or biologging) using non-parametric Bayesian methods. This includes features for pre-processing and analysis of data, as well as the visualization of model results. This framework does not rely on standard parametric probability density functions, which provides flexibility during model fitting. Further details regarding part of this framework can be found in [Cullen et al. (2022)](https://doi.org/10.1111/2041-210X.13745) and [Valle et al. (2022)](https://doi.org/10.1002/eap.2524).
 
-
 # Shiny Applications
 
 ### [Green turtle occurrences compared to environmental layers](https://joshcullen.shinyapps.io/green_turtle_tracks/)
@@ -24,6 +23,3 @@ This app provides an interactive and dynamic platform for users to upload and vi
 
 This app was created to assist with data collection for an expert elicitation workshop on current distributions of invasive species in the southeast US. Users are first asked to define habitat suitability for a number of classes from the National Land Cover Database per species. Next, users are asked to define the intensity of species occurrence throughout the region on a raster map. I developed this novel interactive tool to be used as a layer of a Leaflet map. Additional info about the workshop can be found [here](https://joshcullen.github.io/invasive_spp_expert_elicitation/).
 
-### [Hawksbill sea turtle migrations](https://joshcullen.shinyapps.io/Hawksbill_Movement/)
-
-Similar to the 'Exploration of animal movement data' Shiny app, this is a simplified version that was used to explore migratory looping movements of hawksbill turtles (*Eretmochelys imbricata*) in the Arabian Gulf for a study discerning environmental drivers of movement patterns ([Marshall et al., 2020](https://doi.org/10.3389/fmars.2020.549575)). Users can still interactively and dynamically explore each of the tracks via a time series plot and Leaflet map, but with fewer options than the other app.

@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.5.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Josh Cullen - Software &amp; Shiny Apps</title>
+<title>Josh Cullen – Software &amp; Shiny Apps</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -149,7 +149,7 @@ cookieconsent.run({
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -173,7 +173,6 @@ cookieconsent.run({
   <li><a href="#green-turtle-occurrences-compared-to-environmental-layers" id="toc-green-turtle-occurrences-compared-to-environmental-layers" class="nav-link" data-scroll-target="#green-turtle-occurrences-compared-to-environmental-layers">Green turtle occurrences compared to environmental layers</a></li>
   <li><a href="#exploration-of-animal-movement-data" id="toc-exploration-of-animal-movement-data" class="nav-link" data-scroll-target="#exploration-of-animal-movement-data">Exploration of animal movement data</a></li>
   <li><a href="#invasive-species-expert-elicitation" id="toc-invasive-species-expert-elicitation" class="nav-link" data-scroll-target="#invasive-species-expert-elicitation">Invasive species expert elicitation</a></li>
-  <li><a href="#hawksbill-sea-turtle-migrations" id="toc-hawksbill-sea-turtle-migrations" class="nav-link" data-scroll-target="#hawksbill-sea-turtle-migrations">Hawksbill sea turtle migrations</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -220,10 +219,6 @@ cookieconsent.run({
 <section id="invasive-species-expert-elicitation" class="level3">
 <h3 class="anchored" data-anchor-id="invasive-species-expert-elicitation"><a href="https://joshcullen.shinyapps.io/invasive_expert_elicitation/">Invasive species expert elicitation</a></h3>
 <p>This app was created to assist with data collection for an expert elicitation workshop on current distributions of invasive species in the southeast US. Users are first asked to define habitat suitability for a number of classes from the National Land Cover Database per species. Next, users are asked to define the intensity of species occurrence throughout the region on a raster map. I developed this novel interactive tool to be used as a layer of a Leaflet map. Additional info about the workshop can be found <a href="https://joshcullen.github.io/invasive_spp_expert_elicitation/">here</a>.</p>
-</section>
-<section id="hawksbill-sea-turtle-migrations" class="level3">
-<h3 class="anchored" data-anchor-id="hawksbill-sea-turtle-migrations"><a href="https://joshcullen.shinyapps.io/Hawksbill_Movement/">Hawksbill sea turtle migrations</a></h3>
-<p>Similar to the ‘Exploration of animal movement data’ Shiny app, this is a simplified version that was used to explore migratory looping movements of hawksbill turtles (<em>Eretmochelys imbricata</em>) in the Arabian Gulf for a study discerning environmental drivers of movement patterns (<a href="https://doi.org/10.3389/fmars.2020.549575">Marshall et al., 2020</a>). Users can still interactively and dynamically explore each of the tracks via a time series plot and Leaflet map, but with fewer options than the other app.</p>
 
 
 </section>
@@ -409,18 +404,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -452,7 +436,47 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/joshcullen\.github\.io");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -487,7 +511,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
