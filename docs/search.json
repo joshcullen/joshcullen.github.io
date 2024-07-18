@@ -28,25 +28,11 @@
     "text": "PhD Wildlife & Fisheries Sciences, 2019 Texas A&M University\n BS Biological Sciences, 2013 Clemson University"
   },
   {
-    "objectID": "workshops.html",
-    "href": "workshops.html",
+    "objectID": "Workshops/index.html",
+    "href": "Workshops/index.html",
     "title": "Workshops & Other Resources",
     "section": "",
-    "text": "Workshops\n\nGit and GitHub\n\nUsing Git and GitHub with RStudio (2022)\n\n\n\nShiny and Leaflet\n\nInteractive Web-based Visualizations and Decision-Support Tools in Shiny (2022)\n\n\n\nAnimal Movement and Spatial Ecology\n\nSoutheast Invasive Species Expert Elicitation (2022)\nSpace-Use and Behavioral State Estimation (2022)\n\n\n\n\nOther Resources\nHere are a collection of previous and ongoing webinar series I helped co-host as a collaborative effort between the Statistical Ecology section of the Ecological Society of America (ESA) and the Ecological Forecasting Initiative (EFI).\n\nStatistical Methods Seminar Series (2021 - present)\nTaking Your R Shiny Apps To The Next Level (2021)"
-  },
-  {
-    "objectID": "Research/index.html",
-    "href": "Research/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "This project involved characterizing the resource use (or ecological niche) of juvenile and adult green turtles (Chelonia mydas) from the Gulf of Mexico, Brazil, and Qatar. Ultimately the aims of this project were focused on developing a statistical model that could be used to predict relative green turtle density at locations distant from where the turtles were tracked in this study. Interactive maps are included to show where green turtles moved at each of these sites with respect to environmental variables."
-  },
-  {
-    "objectID": "Research/index.html#green-turtle-habitat-selection-and-movement-patterns",
-    "href": "Research/index.html#green-turtle-habitat-selection-and-movement-patterns",
-    "title": "Research",
-    "section": "",
-    "text": "This project involved characterizing the resource use (or ecological niche) of juvenile and adult green turtles (Chelonia mydas) from the Gulf of Mexico, Brazil, and Qatar. Ultimately the aims of this project were focused on developing a statistical model that could be used to predict relative green turtle density at locations distant from where the turtles were tracked in this study. Interactive maps are included to show where green turtles moved at each of these sites with respect to environmental variables."
+    "text": "Workshops\n\nGit and GitHub\n\nUsing Git and GitHub with RStudio (2022)\n\n\n\nShiny and Leaflet\n\nIntro to Shiny (2024)\nInteractive Web-based Visualizations and Decision-Support Tools in Shiny (2022)\n\n\n\nAnimal Movement and Spatial Ecology\n\nSoutheast Invasive Species Expert Elicitation (2022)\nSpace-Use and Behavioral State Estimation (2022)\n\n\n\n\nOther Resources\nHere are a collection of previous and ongoing webinar series I helped co-host as a collaborative effort between the Statistical Ecology section of the Ecological Society of America (ESA) and the Ecological Forecasting Initiative (EFI).\n\nStatistical Methods Seminar Series (2021 - present)\nTaking Your R Shiny Apps To The Next Level (2021)"
   },
   {
     "objectID": "Research/GreenTurtleSDM.html",
@@ -89,6 +75,27 @@
     "title": "Green Turtle Habitat Selection and Movement Patterns",
     "section": "References",
     "text": "References\nBear, R., Rintoul, D., Snyder, B., Smith-Caldas, M., Herren, C., & Horne, E. (2022). Principles of Biology. OpenStax CNX. http://cnx.org/contents/db89c8f8-a27c-4685-ad2a-19d11a2a7e2e@24.18.\nChase, J. M. (2003). Community assembly: when should history matter?. Oecologia, 136, 489-498.\nHutchinson, G. E. (1957). 1957: Concluding remarks, Cold Spring Harbor Symposium on Quantitative Biology 22, 415-27.\nLatimer, A. M., Banerjee, S., Sang Jr, H., Mosher, E. S., & Silander Jr, J. A. (2009). Hierarchical models facilitate spatial analysis of large data sets: a case study on invasive plant species in the northeastern United States. Ecology Letters, 12(2), 144-154.\nLeibold, M. A. (1995). The niche concept revisited: mechanistic models and community context. Ecology, 76(5), 1371-1382.\nMatthiopoulos, J., Fieberg, J. R., & Aarts, G. (2023). Species-Habitat Associations: Spatial data, predictive models, and ecological insights, 2nd Edition. University of Minnesota Libraries Publishing. Retrieved from the University of Minnesota Digital Conservancy, https://hdl.handle.net/11299/217469.\nPeterson, A. T. (2003). Predicting the geography of species’ invasions via ecological niche modeling. The Quarterly Review of Biology, 78(4), 419-433.\nSaito, V. S., Perkins, D. M., & Kratina, P. (2021). A metabolic perspective of stochastic community assembly. Trends in Ecology & Evolution, 36(4), 280-283.\nWilliams, E. E. (1983). Ecomorphs, faunas, island size, and diverse end points in island radiations of Anolis. In Lizard Ecology: Studies of a Model Organism (pp. 326-370). Harvard University Press."
+  },
+  {
+    "objectID": "Research/index.html",
+    "href": "Research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "This project involved characterizing the resource use (or ecological niche) of juvenile and adult green turtles (Chelonia mydas) from the Gulf of Mexico, Brazil, and Qatar. Ultimately the aims of this project were focused on developing a statistical model that could be used to predict relative green turtle density at locations distant from where the turtles were tracked in this study. Interactive maps are included to show where green turtles moved at each of these sites with respect to environmental variables."
+  },
+  {
+    "objectID": "Research/index.html#green-turtle-habitat-selection-and-movement-patterns",
+    "href": "Research/index.html#green-turtle-habitat-selection-and-movement-patterns",
+    "title": "Research",
+    "section": "",
+    "text": "This project involved characterizing the resource use (or ecological niche) of juvenile and adult green turtles (Chelonia mydas) from the Gulf of Mexico, Brazil, and Qatar. Ultimately the aims of this project were focused on developing a statistical model that could be used to predict relative green turtle density at locations distant from where the turtles were tracked in this study. Interactive maps are included to show where green turtles moved at each of these sites with respect to environmental variables."
+  },
+  {
+    "objectID": "Workshops/Intro_to_Shiny.html",
+    "href": "Workshops/Intro_to_Shiny.html",
+    "title": "Intro to Shiny Workshop Materials",
+    "section": "",
+    "text": "Slides can be found here:\n\n\n\n\n\n\nNote\n\n\n\nSince embedded Shiny app on slide 7 was not created using {shinylive}, it won’t work unless the Intro to Shiny.qmd file is rendered locally.\n\n\n\n GitHub repo with data, R scripts, and slides\nVideo recording: coming soon"
   },
   {
     "objectID": "Publications/index.html",

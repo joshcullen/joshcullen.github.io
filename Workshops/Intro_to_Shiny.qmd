@@ -1,0 +1,16 @@
+---
+title: "Intro to Shiny Workshop Materials"
+---
+
+Slides can be found here:
+
+::: callout-note
+Since embedded Shiny app on slide 7 was not created using {shinylive}, it won't work unless the [Intro to Shiny.qmd](https://github.com/joshcullen/Intro_to_Shiny_Workshop/blob/main/docs/Intro%20to%20Shiny.qmd) file is rendered locally.
+:::
+
+```{=html}
+<iframe class="slide-deck" src="Intro to Shiny.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
+```
+{{< fa brands github size=2x >}} [GitHub repo](https://github.com/joshcullen/Intro_to_Shiny_Workshop) with data, R scripts, and slides
+
+**Video recording:** coming soon

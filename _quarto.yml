@@ -5,6 +5,12 @@ project:
 website:
   title: "Josh Cullen"
   site-url: https://joshcullen.github.io
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Alert** - [Intro to Shiny Workshop](https://joshcullen.github.io/Intro_to_Shiny) slides and materials now available. Video recording available after July 25th."
+    type: success
+    position: below-navbar
   navbar:
     left:
       - href: index.qmd
@@ -17,7 +23,7 @@ website:
         text: Research
       - href: software_shiny.qmd
         text: Software & Shiny Apps
-      - href: workshops.qmd
+      - href: Workshops/index.qmd
         text: Workshops
       
   page-footer:
