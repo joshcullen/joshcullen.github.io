@@ -23,3 +23,6 @@ This app provides an interactive and dynamic platform for users to upload and vi
 
 This app was created to assist with data collection for an expert elicitation workshop on current distributions of invasive species in the southeast US. Users are first asked to define habitat suitability for a number of classes from the National Land Cover Database per species. Next, users are asked to define the intensity of species occurrence throughout the region on a raster map. I developed this novel interactive tool to be used as a layer of a Leaflet map. Additional info about the workshop can be found [here](https://joshcullen.github.io/invasive_spp_expert_elicitation/).
 
+### [Walks with Turbo](https://joshcullen.shinyapps.io/walkingwithturbo/)
+
+A fun app for me to explore and visualize walks with my dog Turbo. This app emphasizes style customization with CSS and simple layouts using [`{bslib}`](https://rstudio.github.io/bslib/). Photos from each walk also emphasize Turbo's style and quirkiness. The dashboard includes a summary table of the distance, duration, and elevation gain of each walk, whereas an additional plot provides an elevation profile of the selected walk show on the interactive map. A popover map at the top of the sidebar enables visualization of all recorded walks.
