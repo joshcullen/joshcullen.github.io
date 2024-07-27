@@ -95,7 +95,7 @@
     "href": "Workshops/Intro_to_Shiny.html",
     "title": "Intro to Shiny Workshop Materials",
     "section": "",
-    "text": "Slides can be found here:\n\n\n\n\n\n\nNote\n\n\n\nSince embedded Shiny app on slide 7 was not created using {shinylive}, it won’t work unless the Intro to Shiny.qmd file is rendered locally.\n\n\n\n GitHub repo with data, R scripts, and slides\nVideo recording: coming soon"
+    "text": "Slides can be found here:\n\n\n\n\n\n\nNote\n\n\n\nSince embedded Shiny app on slide 7 was not created using {shinylive}, it won’t work unless the Intro to Shiny.qmd file is rendered locally.\n\n\n\n GitHub repo with data, R scripts, and slides\nVideo recording: https://youtu.be/iwy17h38mOk"
   },
   {
     "objectID": "Publications/index.html",
