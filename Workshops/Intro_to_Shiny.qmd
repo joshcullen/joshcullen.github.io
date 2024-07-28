@@ -13,4 +13,4 @@ Since embedded Shiny app on slide 7 was not created using {shinylive}, it won't 
 ```
 {{< fa brands github size=2x >}} [GitHub repo](https://github.com/joshcullen/Intro_to_Shiny_Workshop) with data, R scripts, and slides
 
-**Video recording:** coming soon
+**Video recording:** <https://youtu.be/iwy17h38mOk>

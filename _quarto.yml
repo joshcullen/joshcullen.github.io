@@ -8,7 +8,7 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "**Alert** - [Intro to Shiny Workshop](https://joshcullen.github.io/Intro_to_Shiny) slides and materials now available. Video recording available after July 25th."
+    content: "**Alert** - [Intro to Shiny Workshop](https://joshcullen.github.io/Workshops/Intro_to_Shiny) slides, video recording, and materials now available."
     type: success
     position: below-navbar
   navbar:
