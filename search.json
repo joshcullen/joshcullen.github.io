@@ -7,6 +7,34 @@
     "text": "Download current CV"
   },
   {
+    "objectID": "Research/index.html",
+    "href": "Research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "This project involved characterizing the resource use (or ecological niche) of juvenile and adult green turtles (Chelonia mydas) from the Gulf of Mexico, Brazil, and Qatar. Ultimately the aims of this project were focused on developing a statistical model that could be used to predict relative green turtle density at locations distant from where the turtles were tracked in this study. Interactive maps are included to show where green turtles moved at each of these sites with respect to environmental variables."
+  },
+  {
+    "objectID": "Research/index.html#green-turtle-habitat-selection-and-movement-patterns",
+    "href": "Research/index.html#green-turtle-habitat-selection-and-movement-patterns",
+    "title": "Research",
+    "section": "",
+    "text": "This project involved characterizing the resource use (or ecological niche) of juvenile and adult green turtles (Chelonia mydas) from the Gulf of Mexico, Brazil, and Qatar. Ultimately the aims of this project were focused on developing a statistical model that could be used to predict relative green turtle density at locations distant from where the turtles were tracked in this study. Interactive maps are included to show where green turtles moved at each of these sites with respect to environmental variables."
+  },
+  {
+    "objectID": "Workshops/Intro_to_Shiny.html",
+    "href": "Workshops/Intro_to_Shiny.html",
+    "title": "Intro to Shiny Workshop Materials",
+    "section": "",
+    "text": "Slides can be found here:\n\n\n\n\n\n\nNote\n\n\n\nSince embedded Shiny app on slide 7 was not created using {shinylive}, it won’t work unless the Intro to Shiny.qmd file is rendered locally.\n\n\n\n GitHub repo with data, R scripts, and slides\nVideo recording: https://youtu.be/iwy17h38mOk"
+  },
+  {
+    "objectID": "software_shiny.html",
+    "href": "software_shiny.html",
+    "title": "Software & Shiny Apps",
+    "section": "",
+    "text": "Software\n\nbayesmove\nAn R package for inferring latent behavioral states from animal movement data (telemetry and/or biologging) using non-parametric Bayesian methods. This includes features for pre-processing and analysis of data, as well as the visualization of model results. This framework does not rely on standard parametric probability density functions, which provides flexibility during model fitting. Further details regarding part of this framework can be found in Cullen et al. (2022) and Valle et al. (2022).\n\n\n\nShiny Applications\n\nGreen turtle occurrences compared to environmental layers\nThis app provides an interactive map for exploring green turtle (Chelonia mydas) tracks in the Gulf of Mexico, as well as along the coasts of Brazil and Qatar. Additionally, environmental layers (depth, net primary productivity, sea surface temperature) can be explored compared to turtle locations at each region on a monthly basis. These data are part of a study developing a transferable species distribution modeling approach.\n\n\nExploration of animal movement data\nThis app provides an interactive and dynamic platform for users to upload and visually explore their animal telemetry dataset. Options are provided to filter by each column of the uploaded data, as well as to interactively subset the individuals and time period that is being mapped. An interactive time series plot is linked to a Leaflet map for exploring particular patterns of interest within the data.\n\n\nInvasive species expert elicitation\nThis app was created to assist with data collection for an expert elicitation workshop on current distributions of invasive species in the southeast US. Users are first asked to define habitat suitability for a number of classes from the National Land Cover Database per species. Next, users are asked to define the intensity of species occurrence throughout the region on a raster map. I developed this novel interactive tool to be used as a layer of a Leaflet map. Additional info about the workshop can be found here.\n\n\nAvian influenza virus tranmission risk modeling\nThis app visualizes the results of a recently published paper by Prosser et al. (2024) “Using an adaptive modeling framework to identify avian influenza spillover risk at the wild‐domestic interface”, which provides county-level risk estimates of avian influenza virus (AIV) transmission risk from wild waterfowl to domestic poultry for each week of the year. Model input layers of estimated waterfowl abundance and weighted values for poultry are also available for exploration. Map available under the “Interactive Risk Maps” tab in the sidebar. Interactive map was created using the new mapgl R package.\n\n\nWalks with Turbo\nA fun app for me to explore and visualize walks with my dog Turbo. This app emphasizes style customization with CSS and simple layouts using {bslib}. Photos from each walk also emphasize Turbo’s style and quirkiness. The dashboard includes a summary table of the distance, duration, and elevation gain of each walk, whereas an additional plot provides an elevation profile of the selected walk show on the interactive map. A popover map at the top of the sidebar enables visualization of all recorded walks."
+  },
+  {
     "objectID": "Publications/index.html",
     "href": "Publications/index.html",
     "title": "Publications",
@@ -70,6 +98,34 @@
     "text": "2013\nCullen JA, Maie T, Schoenfuss HL, Blob RW. (2013). Evolutionary Novelty versus Exaptation: Oral Kinematics in Feeding versus Climbing in the Waterfall-Climbing Hawaiian Goby Sicyopterus stimpsoni. PLoS ONE, 8(1): e53274. https://doi.org/10.1371/journal.pone.0053274. [PDF]"
   },
   {
+    "objectID": "Workshops/index.html",
+    "href": "Workshops/index.html",
+    "title": "Workshops & Other Resources",
+    "section": "",
+    "text": "Workshops\n\nGit and GitHub\n\nUsing Git and GitHub with RStudio (2022)\n\n\n\nShiny and Leaflet\n\nIntro to Shiny (2024)\nInteractive Web-based Visualizations and Decision-Support Tools in Shiny (2022)\n\n\n\nAnimal Movement and Spatial Ecology\n\nSoutheast Invasive Species Expert Elicitation (2022)\nSpace-Use and Behavioral State Estimation (2022)\n\n\n\n\nOther Resources\nHere are a collection of previous and ongoing webinar series I helped co-host as a collaborative effort between the Statistical Ecology section of the Ecological Society of America (ESA) and the Ecological Forecasting Initiative (EFI).\n\nStatistical Methods Seminar Series (2021 - present)\nTaking Your R Shiny Apps To The Next Level (2021)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Josh Cullen, PhD",
+    "section": "",
+    "text": "I am an Assistant Project Scientist in the Fisheries Collaborative Program with UC Santa Cruz and NOAA Southwest Fisheries Science Center where I’m working in DevOps and ecological research. For this work, I am helping to develop (Dev) software and operationalize (Ops) ecological models to help understand climate change impacts to marine animal distributions, as well as promote sustainable fisheries through reduced bycatch and ship strikes. In general, my research takes an integrative approach to understand how animals interact with their environment.\nI am a quantitative ecologist with a passion for finding novel insights from large datasets, particularly within the fields of movement and population ecology. I am broadly interested in the ecological roles and movement patterns of vertebrate organisms to assess how sympatric species partition niche space and interact with their environment, respectively. I am also interested in data exploration, acquisition, and dissemination using interactive web applications (via Shiny, which may also serve as decision-support tools. I am particularly interested in using quantitative statistical methods (e.g., Bayesian models, state-space models, mixed effects (i.e. hierarchical) models, multivariate ordinations and clustering) and GIS to address complex ecological problems.\n\n\n\n PhD Wildlife & Fisheries Sciences, 2019 Texas A&M University\n BS Biological Sciences, 2013 Clemson University"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Josh Cullen, PhD",
+    "section": "",
+    "text": "I am an Assistant Project Scientist in the Fisheries Collaborative Program with UC Santa Cruz and NOAA Southwest Fisheries Science Center where I’m working in DevOps and ecological research. For this work, I am helping to develop (Dev) software and operationalize (Ops) ecological models to help understand climate change impacts to marine animal distributions, as well as promote sustainable fisheries through reduced bycatch and ship strikes. In general, my research takes an integrative approach to understand how animals interact with their environment.\nI am a quantitative ecologist with a passion for finding novel insights from large datasets, particularly within the fields of movement and population ecology. I am broadly interested in the ecological roles and movement patterns of vertebrate organisms to assess how sympatric species partition niche space and interact with their environment, respectively. I am also interested in data exploration, acquisition, and dissemination using interactive web applications (via Shiny, which may also serve as decision-support tools. I am particularly interested in using quantitative statistical methods (e.g., Bayesian models, state-space models, mixed effects (i.e. hierarchical) models, multivariate ordinations and clustering) and GIS to address complex ecological problems."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Josh Cullen, PhD",
+    "section": "",
+    "text": "PhD Wildlife & Fisheries Sciences, 2019 Texas A&M University\n BS Biological Sciences, 2013 Clemson University"
+  },
+  {
     "objectID": "Research/GreenTurtleSDM.html",
     "href": "Research/GreenTurtleSDM.html",
     "title": "Green Turtle Habitat Selection and Movement Patterns",
@@ -110,61 +166,5 @@
     "title": "Green Turtle Habitat Selection and Movement Patterns",
     "section": "References",
     "text": "References\nBear, R., Rintoul, D., Snyder, B., Smith-Caldas, M., Herren, C., & Horne, E. (2022). Principles of Biology. OpenStax CNX. http://cnx.org/contents/db89c8f8-a27c-4685-ad2a-19d11a2a7e2e@24.18.\nChase, J. M. (2003). Community assembly: when should history matter?. Oecologia, 136, 489-498.\nHutchinson, G. E. (1957). 1957: Concluding remarks, Cold Spring Harbor Symposium on Quantitative Biology 22, 415-27.\nLatimer, A. M., Banerjee, S., Sang Jr, H., Mosher, E. S., & Silander Jr, J. A. (2009). Hierarchical models facilitate spatial analysis of large data sets: a case study on invasive plant species in the northeastern United States. Ecology Letters, 12(2), 144-154.\nLeibold, M. A. (1995). The niche concept revisited: mechanistic models and community context. Ecology, 76(5), 1371-1382.\nMatthiopoulos, J., Fieberg, J. R., & Aarts, G. (2023). Species-Habitat Associations: Spatial data, predictive models, and ecological insights, 2nd Edition. University of Minnesota Libraries Publishing. Retrieved from the University of Minnesota Digital Conservancy, https://hdl.handle.net/11299/217469.\nPeterson, A. T. (2003). Predicting the geography of species’ invasions via ecological niche modeling. The Quarterly Review of Biology, 78(4), 419-433.\nSaito, V. S., Perkins, D. M., & Kratina, P. (2021). A metabolic perspective of stochastic community assembly. Trends in Ecology & Evolution, 36(4), 280-283.\nWilliams, E. E. (1983). Ecomorphs, faunas, island size, and diverse end points in island radiations of Anolis. In Lizard Ecology: Studies of a Model Organism (pp. 326-370). Harvard University Press."
-  },
-  {
-    "objectID": "Workshops/index.html",
-    "href": "Workshops/index.html",
-    "title": "Workshops & Other Resources",
-    "section": "",
-    "text": "Workshops\n\nGit and GitHub\n\nUsing Git and GitHub with RStudio (2022)\n\n\n\nShiny and Leaflet\n\nIntro to Shiny (2024)\nInteractive Web-based Visualizations and Decision-Support Tools in Shiny (2022)\n\n\n\nAnimal Movement and Spatial Ecology\n\nSoutheast Invasive Species Expert Elicitation (2022)\nSpace-Use and Behavioral State Estimation (2022)\n\n\n\n\nOther Resources\nHere are a collection of previous and ongoing webinar series I helped co-host as a collaborative effort between the Statistical Ecology section of the Ecological Society of America (ESA) and the Ecological Forecasting Initiative (EFI).\n\nStatistical Methods Seminar Series (2021 - present)\nTaking Your R Shiny Apps To The Next Level (2021)"
-  },
-  {
-    "objectID": "software_shiny.html",
-    "href": "software_shiny.html",
-    "title": "Software & Shiny Apps",
-    "section": "",
-    "text": "Software\n\nbayesmove\nAn R package for inferring latent behavioral states from animal movement data (telemetry and/or biologging) using non-parametric Bayesian methods. This includes features for pre-processing and analysis of data, as well as the visualization of model results. This framework does not rely on standard parametric probability density functions, which provides flexibility during model fitting. Further details regarding part of this framework can be found in Cullen et al. (2022) and Valle et al. (2022).\n\n\n\nShiny Applications\n\nGreen turtle occurrences compared to environmental layers\nThis app provides an interactive map for exploring green turtle (Chelonia mydas) tracks in the Gulf of Mexico, as well as along the coasts of Brazil and Qatar. Additionally, environmental layers (depth, net primary productivity, sea surface temperature) can be explored compared to turtle locations at each region on a monthly basis. These data are part of a study developing a transferable species distribution modeling approach.\n\n\nExploration of animal movement data\nThis app provides an interactive and dynamic platform for users to upload and visually explore their animal telemetry dataset. Options are provided to filter by each column of the uploaded data, as well as to interactively subset the individuals and time period that is being mapped. An interactive time series plot is linked to a Leaflet map for exploring particular patterns of interest within the data.\n\n\nInvasive species expert elicitation\nThis app was created to assist with data collection for an expert elicitation workshop on current distributions of invasive species in the southeast US. Users are first asked to define habitat suitability for a number of classes from the National Land Cover Database per species. Next, users are asked to define the intensity of species occurrence throughout the region on a raster map. I developed this novel interactive tool to be used as a layer of a Leaflet map. Additional info about the workshop can be found here.\n\n\nAvian influenza virus tranmission risk modeling\nThis app visualizes the results of a recently published paper by Prosser et al. (2024) “Using an adaptive modeling framework to identify avian influenza spillover risk at the wild‐domestic interface”, which provides county-level risk estimates of avian influenza virus (AIV) transmission risk from wild waterfowl to domestic poultry for each week of the year. Model input layers of estimated waterfowl abundance and weighted values for poultry are also available for exploration. Map available under the “Interactive Risk Maps” tab in the sidebar. Interactive map was created using the new mapgl R package.\n\n\nWalks with Turbo\nA fun app for me to explore and visualize walks with my dog Turbo. This app emphasizes style customization with CSS and simple layouts using {bslib}. Photos from each walk also emphasize Turbo’s style and quirkiness. The dashboard includes a summary table of the distance, duration, and elevation gain of each walk, whereas an additional plot provides an elevation profile of the selected walk show on the interactive map. A popover map at the top of the sidebar enables visualization of all recorded walks."
-  },
-  {
-    "objectID": "Workshops/Intro_to_Shiny.html",
-    "href": "Workshops/Intro_to_Shiny.html",
-    "title": "Intro to Shiny Workshop Materials",
-    "section": "",
-    "text": "Slides can be found here:\n\n\n\n\n\n\nNote\n\n\n\nSince embedded Shiny app on slide 7 was not created using {shinylive}, it won’t work unless the Intro to Shiny.qmd file is rendered locally.\n\n\n\n GitHub repo with data, R scripts, and slides\nVideo recording: https://youtu.be/iwy17h38mOk"
-  },
-  {
-    "objectID": "Research/index.html",
-    "href": "Research/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "This project involved characterizing the resource use (or ecological niche) of juvenile and adult green turtles (Chelonia mydas) from the Gulf of Mexico, Brazil, and Qatar. Ultimately the aims of this project were focused on developing a statistical model that could be used to predict relative green turtle density at locations distant from where the turtles were tracked in this study. Interactive maps are included to show where green turtles moved at each of these sites with respect to environmental variables."
-  },
-  {
-    "objectID": "Research/index.html#green-turtle-habitat-selection-and-movement-patterns",
-    "href": "Research/index.html#green-turtle-habitat-selection-and-movement-patterns",
-    "title": "Research",
-    "section": "",
-    "text": "This project involved characterizing the resource use (or ecological niche) of juvenile and adult green turtles (Chelonia mydas) from the Gulf of Mexico, Brazil, and Qatar. Ultimately the aims of this project were focused on developing a statistical model that could be used to predict relative green turtle density at locations distant from where the turtles were tracked in this study. Interactive maps are included to show where green turtles moved at each of these sites with respect to environmental variables."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Josh Cullen, PhD",
-    "section": "",
-    "text": "I am an Assistant Project Scientist in the Fisheries Collaborative Program with UC Santa Cruz and NOAA Southwest Fisheries Science Center where I’m working in DevOps and ecological research. For this work, I am helping to develop (Dev) software and operationalize (Ops) ecological models to help understand climate change impacts to marine animal distributions, as well as promote sustainable fisheries through reduced bycatch and ship strikes. In general, my research takes an integrative approach to understand how animals interact with their environment.\nI am a quantitative ecologist with a passion for finding novel insights from large datasets, particularly within the fields of movement and population ecology. I am broadly interested in the ecological roles and movement patterns of vertebrate organisms to assess how sympatric species partition niche space and interact with their environment, respectively. I am also interested in data exploration, acquisition, and dissemination using interactive web applications (via Shiny, which may also serve as decision-support tools. I am particularly interested in using quantitative statistical methods (e.g., Bayesian models, state-space models, mixed effects (i.e. hierarchical) models, multivariate ordinations and clustering) and GIS to address complex ecological problems.\n\n\n\n PhD Wildlife & Fisheries Sciences, 2019 Texas A&M University\n BS Biological Sciences, 2013 Clemson University"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Josh Cullen, PhD",
-    "section": "",
-    "text": "I am an Assistant Project Scientist in the Fisheries Collaborative Program with UC Santa Cruz and NOAA Southwest Fisheries Science Center where I’m working in DevOps and ecological research. For this work, I am helping to develop (Dev) software and operationalize (Ops) ecological models to help understand climate change impacts to marine animal distributions, as well as promote sustainable fisheries through reduced bycatch and ship strikes. In general, my research takes an integrative approach to understand how animals interact with their environment.\nI am a quantitative ecologist with a passion for finding novel insights from large datasets, particularly within the fields of movement and population ecology. I am broadly interested in the ecological roles and movement patterns of vertebrate organisms to assess how sympatric species partition niche space and interact with their environment, respectively. I am also interested in data exploration, acquisition, and dissemination using interactive web applications (via Shiny, which may also serve as decision-support tools. I am particularly interested in using quantitative statistical methods (e.g., Bayesian models, state-space models, mixed effects (i.e. hierarchical) models, multivariate ordinations and clustering) and GIS to address complex ecological problems."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Josh Cullen, PhD",
-    "section": "",
-    "text": "PhD Wildlife & Fisheries Sciences, 2019 Texas A&M University\n BS Biological Sciences, 2013 Clemson University"
   }
 ]
