@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,12 +37,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-41afc036f4045670d8a63ab41900e02e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-355b9d29e98aa6223a60e33e047a4837.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -203,6 +203,7 @@ cookieconsent.run({
 
 <section id="section" class="level2">
 <h2 class="anchored" data-anchor-id="section">2024</h2>
+<p><strong>Cullen JA</strong>, Marshall CD. (2024). Scaling of bite force corresponds with ontogenetic niche shifts in coastal elasmobranchs. <em>Frontiers in Marine Science</em>, 11:1452984. <a href="https://doi.org/10.3389/fmars.2024.1452984" class="uri">https://doi.org/10.3389/fmars.2024.1452984</a>. <a href="Cullen and Marshall 2024 shark bite force scaling and trophic niches.pdf"> [PDF]</a></p>
 <p>Valle D, Attias N, <strong>Cullen JA</strong>, Hooten MB, Giroux A, Oliveira‐Santos LGR, Desbiez ALJ, Fletcher Jr RJ. (2024). Bridging the gap between movement data and connectivity analysis using the Time-Explicit Habitat Selection (TEHS) model. <em>Movement Ecology</em>, 12:19. <a href="https://doi.org/10.1186/s40462-024-00461-1" class="uri">https://doi.org/10.1186/s40462-024-00461-1</a>. <a href="Valle et al 2024 time-explicit habitat selection for connectivity analysis.pdf"> [PDF]</a></p>
 <p>Hardin EE, <strong>Cullen JA</strong>, Fuentes MMPB. (2024). Comparing acoustic and satellite telemetry: an analysis quantifying the space use of <em>Chelonia mydas</em> in Bimini, Bahamas. <em>Royal Society Open Science</em>, 11:231152. <a href="https://doi.org/10.1098/rsos.231152" class="uri">https://doi.org/10.1098/rsos.231152</a>. <a href="Hardin et al 2024 space use comparison acoustic satellite telemetry.pdf"> [PDF]</a></p>
 </section>
@@ -470,8 +471,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -582,7 +581,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
