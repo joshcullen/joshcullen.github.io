@@ -28,7 +28,7 @@ website:
       
   page-footer:
     left: |
-      &copy; 2024 Josh Cullen
+      &copy; 2025 Josh Cullen
     right: |
       This page is built with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)
   google-analytics: "G-E5JJNK17PJ"
