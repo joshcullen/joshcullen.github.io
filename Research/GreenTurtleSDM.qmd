@@ -38,8 +38,11 @@ Below is an interactive map that allows you to explore the observed locations of
 #| echo: false
 #| results: hide
 
-library(tidyverse)
-library(vroom)
+library(dplyr)
+library(lubridate)
+library(purrr)
+library(stringr)
+library(tidyr)
 library(leaflet)
 library(leafem)
 library(INLA)
@@ -128,12 +131,12 @@ arabgulf.bathym <- get_elev(rast(ext(unlist(arabgulf.extent)), crs = crs(arabgul
 
 
 ### NPP ###
-nwa.npp <- rast(npp.url(date = rast.date, extent = nwa.extent)) |> 
-  flip()
-satlantic.npp <- rast(npp.url(date = rast.date, extent = satlantic.extent)) |> 
-  flip()
-arabgulf.npp <- rast(npp.url(date = rast.date, extent = arabgulf.extent)) |> 
-  flip()
+nwa.npp <- rast(npp.url(date = rast.date, extent = nwa.extent)) #|> 
+  # flip()
+satlantic.npp <- rast(npp.url(date = rast.date, extent = satlantic.extent)) #|> 
+  # flip()
+arabgulf.npp <- rast(npp.url(date = rast.date, extent = arabgulf.extent)) #|> 
+  # flip()
 
 
 
