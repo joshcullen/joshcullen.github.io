@@ -18,7 +18,6 @@ Imports:
     tidyr
     leaflet
     leafem
-    INLA
     terra
     RCurl
     cmocean
