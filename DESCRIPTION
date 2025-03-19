@@ -17,9 +17,10 @@ Imports:
     stringr
     tidyr
     leaflet
-    leafem
     terra
     RCurl
     cmocean
     viridis
     rmarkdown
+Remotes:
+    leafem=github::r-spatial/leafem
