@@ -16,3 +16,11 @@ Imports:
     purrr
     stringr
     tidyr
+    leaflet
+    terra
+    RCurl
+    cmocean
+    viridis
+    rmarkdown
+Remotes:
+    leafem=github::r-spatial/leafem
