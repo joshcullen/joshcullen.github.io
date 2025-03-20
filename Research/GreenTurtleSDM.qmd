@@ -81,31 +81,28 @@ arabgulf.extent <- data.frame(xmin = 47.5,
 
 
 # Determine latest date of data available for NPP and SST
-npp.url.das <- "https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1ppmday.das"
-sst.url.das <- "https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41mday.das"
+npp.url <- "https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1ppmday.nccsvMetadata"
+sst.url <- "https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41mday.nccsvMetadata"
 
-npp.get <- getURL(npp.url.das)
-npp.metadata <- str_split_1(string = npp.get, pattern = "\\n    ")
-sst.get <- getURL(sst.url.das)
-sst.metadata <- str_split_1(string = sst.get, pattern = "\\n    ")
+npp.metadata <- read.csv(npp.url)
+npp.date <- npp.metadata |> 
+  filter(Conventions == 'time_coverage_end') |> 
+  pull(3)
+sst.metadata <- read.csv(sst.url)
+sst.date <- sst.metadata |> 
+  filter(Conventions == 'time_coverage_end') |> 
+  pull(3)
 
-ind.npp <- grep(npp.metadata, pattern = "^String time_coverage_end")
-ind.sst <- grep(sst.metadata, pattern = "^String time_coverage_end")
-
-npp.date <- str_extract(string = npp.metadata[ind.npp],
-                        pattern = "[0-9]+-[0-9]+-[0-9]+T00:00:00Z")
-sst.date <- str_extract(string = sst.metadata[ind.sst],
-                        pattern = "[0-9]+-[0-9]+-[0-9]+T00:00:00Z")
 
 # Choose earlier date if difference in availability between NPP and SST
-if (npp.date != sst.date) {
+if (npp.date == sst.date) {
+  rast.date <- sst.date
+} else {
   dates <- c(npp.date, sst.date) %>% 
     as_date() %>% 
     sort()
   
   rast.date <- paste0(first(dates), "T00:00:00Z")
-} else {
-  rast.date <- sst.date
 }
 
 
