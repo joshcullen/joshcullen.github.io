@@ -81,14 +81,14 @@ arabgulf.extent <- data.frame(xmin = 47.5,
 
 
 # Determine latest date of data available for NPP and SST
-npp.url <- "https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1ppmday.nccsvMetadata"
-sst.url <- "https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41mday.nccsvMetadata"
+npp.url_meta <- "https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1ppmday.nccsvMetadata"
+sst.url_meta <- "https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41mday.nccsvMetadata"
 
-npp.metadata <- read.csv(npp.url)
+npp.metadata <- read.csv(npp.url_meta)
 npp.date <- npp.metadata |> 
   filter(Conventions == 'time_coverage_end') |> 
   pull(3)
-sst.metadata <- read.csv(sst.url)
+sst.metadata <- read.csv(sst.url_meta)
 sst.date <- sst.metadata |> 
   filter(Conventions == 'time_coverage_end') |> 
   pull(3)
