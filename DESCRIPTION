@@ -23,3 +23,5 @@ Imports:
     cmocean,
     viridis,
     rmarkdown
+Remotes:
+    r-spatial/leafem
