@@ -6,9 +6,6 @@ about:
   image-shape: round
   image: profile.jpg
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/josh_a_cullen
     - icon: github
       text: Github
       href: https://github.com/joshcullen

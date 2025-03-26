@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.27">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Josh Cullen – Software &amp; Shiny Apps</title>
+<title>Software &amp; Shiny Apps – Josh Cullen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -37,12 +37,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-d1b12f2568ecbe55642fee6aa00bd082.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-fc69c27516b785ffb5db61c6a6e66aa6.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -102,7 +102,7 @@ cookieconsent.run({
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Josh Cullen - Software &amp; Shiny Apps">
+<meta property="og:title" content="Software &amp; Shiny Apps – Josh Cullen">
 <meta property="og:site_name" content="Josh Cullen">
 </head>
 
@@ -118,7 +118,7 @@ cookieconsent.run({
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -154,9 +154,6 @@ cookieconsent.run({
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="fb5473e58fd0c4557aa27e6b8c60c6d0" class="alert alert-success hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Alert</strong> - <a href="https://joshcullen.github.io/Workshops/Intro_to_Shiny">Intro to Shiny Workshop</a> slides, video recording, and materials now available.</p>
-</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -178,6 +175,7 @@ cookieconsent.run({
   <li><a href="#invasive-species-expert-elicitation" id="toc-invasive-species-expert-elicitation" class="nav-link" data-scroll-target="#invasive-species-expert-elicitation">Invasive species expert elicitation</a></li>
   <li><a href="#avian-influenza-virus-tranmission-risk-modeling" id="toc-avian-influenza-virus-tranmission-risk-modeling" class="nav-link" data-scroll-target="#avian-influenza-virus-tranmission-risk-modeling">Avian influenza virus tranmission risk modeling</a></li>
   <li><a href="#walks-with-turbo" id="toc-walks-with-turbo" class="nav-link" data-scroll-target="#walks-with-turbo">Walks with Turbo</a></li>
+  <li><a href="#example-species-occurrence-dashboard" id="toc-example-species-occurrence-dashboard" class="nav-link" data-scroll-target="#example-species-occurrence-dashboard">Example species occurrence dashboard</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -232,6 +230,10 @@ cookieconsent.run({
 <section id="walks-with-turbo" class="level3">
 <h3 class="anchored" data-anchor-id="walks-with-turbo"><a href="https://joshcullen.shinyapps.io/walkingwithturbo/">Walks with Turbo</a></h3>
 <p>A fun app for me to explore and visualize walks with my dog Turbo. This app emphasizes style customization with CSS and simple layouts using <a href="https://rstudio.github.io/bslib/"><code>{bslib}</code></a>. Photos from each walk also emphasize Turbo’s style and quirkiness. The dashboard includes a summary table of the distance, duration, and elevation gain of each walk, whereas an additional plot provides an elevation profile of the selected walk show on the interactive map. A popover map at the top of the sidebar enables visualization of all recorded walks.</p>
+</section>
+<section id="example-species-occurrence-dashboard" class="level3">
+<h3 class="anchored" data-anchor-id="example-species-occurrence-dashboard"><a href="https://joshcullen.shinyapps.io/species_occurrence_dashboard/">Example species occurrence dashboard</a></h3>
+<p>An example app from a Shiny workshop, which shows how to create a dashboard for a Shiny app. This includes a multi-page app on simulated data of freshwater species occurrence from surveys throughout Canadian provinces, including dynamic and interactive maps and tables. Dashboard layouts are structured through use of <a href="https://rstudio.github.io/bslib/"><code>{bslib}</code></a>.</p>
 
 
 </section>
@@ -464,8 +466,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -576,7 +576,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

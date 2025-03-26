@@ -5,12 +5,12 @@ project:
 website:
   title: "Josh Cullen"
   site-url: https://joshcullen.github.io
-  announcement: 
-    icon: info-circle
-    dismissable: true
-    content: "**Alert** - [Intro to Shiny Workshop](https://joshcullen.github.io/Workshops/Intro_to_Shiny) slides, video recording, and materials now available."
-    type: success
-    position: below-navbar
+  # announcement: 
+  #   icon: info-circle
+  #   dismissable: true
+  #   content: "**Alert** - [Intro to Shiny Workshop](https://joshcullen.github.io/Workshops/Intro_to_Shiny) slides, video recording, and materials now available."
+  #   type: success
+  #   position: below-navbar
   navbar:
     left:
       - href: index.qmd

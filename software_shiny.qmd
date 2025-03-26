@@ -30,3 +30,7 @@ This app visualizes the results of a recently published paper by Prosser et al. 
 ### [Walks with Turbo](https://joshcullen.shinyapps.io/walkingwithturbo/)
 
 A fun app for me to explore and visualize walks with my dog Turbo. This app emphasizes style customization with CSS and simple layouts using [`{bslib}`](https://rstudio.github.io/bslib/). Photos from each walk also emphasize Turbo's style and quirkiness. The dashboard includes a summary table of the distance, duration, and elevation gain of each walk, whereas an additional plot provides an elevation profile of the selected walk show on the interactive map. A popover map at the top of the sidebar enables visualization of all recorded walks.
+
+### [Example species occurrence dashboard](https://joshcullen.shinyapps.io/species_occurrence_dashboard/)
+
+An example app from a Shiny workshop, which shows how to create a dashboard for a Shiny app. This includes a multi-page app on simulated data of freshwater species occurrence from surveys throughout Canadian provinces, including dynamic and interactive maps and tables. Dashboard layouts are structured through use of [`{bslib}`](https://rstudio.github.io/bslib/).

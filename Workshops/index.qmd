@@ -10,6 +10,7 @@ title: "Workshops & Other Resources "
 
 ### Shiny and Leaflet
 
+-   [Introduction to R Shiny](https://physalia86.github.io/Introduction-to-R-Shiny-course/) (2025)
 -   [Intro to Shiny](Intro_to_Shiny.qmd) (2024)
 -   [Interactive Web-based Visualizations and Decision-Support Tools in Shiny](https://www.youtube.com/watch?v=SpL0QJTtm1I) (2022)
 
