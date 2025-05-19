@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://joshcullen.github.io/software_shiny.html</loc>
-    <lastmod>2025-04-28T00:03:31.652Z</lastmod>
+    <loc>https://joshcullen.github.io/Workshops/Intro_to_Shiny.html</loc>
+    <lastmod>2025-05-19T00:03:56.355Z</lastmod>
   </url>
   <url>
     <loc>https://joshcullen.github.io/cv.html</loc>
-    <lastmod>2025-04-28T00:03:31.291Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joshcullen.github.io/Research/index.html</loc>
-    <lastmod>2025-04-28T00:03:31.215Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joshcullen.github.io/Workshops/Intro_to_Shiny.html</loc>
-    <lastmod>2025-04-28T00:03:31.284Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joshcullen.github.io/Publications/index.html</loc>
-    <lastmod>2025-04-28T00:03:31.215Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joshcullen.github.io/Workshops/index.html</loc>
-    <lastmod>2025-04-28T00:03:31.284Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joshcullen.github.io/Research/GreenTurtleSDM.html</loc>
-    <lastmod>2025-04-28T00:03:31.215Z</lastmod>
+    <lastmod>2025-05-19T00:03:56.363Z</lastmod>
   </url>
   <url>
     <loc>https://joshcullen.github.io/index.html</loc>
-    <lastmod>2025-04-28T00:03:31.650Z</lastmod>
+    <lastmod>2025-05-19T00:03:56.718Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joshcullen.github.io/Research/GreenTurtleSDM.html</loc>
+    <lastmod>2025-05-19T00:03:56.287Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joshcullen.github.io/Research/index.html</loc>
+    <lastmod>2025-05-19T00:03:56.287Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joshcullen.github.io/software_shiny.html</loc>
+    <lastmod>2025-05-19T00:03:56.720Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joshcullen.github.io/Publications/index.html</loc>
+    <lastmod>2025-05-19T00:03:56.287Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joshcullen.github.io/Workshops/index.html</loc>
+    <lastmod>2025-05-19T00:03:56.355Z</lastmod>
   </url>
 </urlset>
