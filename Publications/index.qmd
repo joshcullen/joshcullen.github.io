@@ -4,7 +4,7 @@ title: "Publications"
 
 ## 2024
 
-**Cullen JA**, Domit C, Lamont MM, Marshall CD, Santos AJB, Sasso CR, Al Ansi M, Fuentes MMPB. (2024). A comparative framework to develop transferable species distribution models for animal telemetry data. *Ecosphere*, 15:e70136. <https://doi.org/10.1002/ecs2.70136>. <a href='Cullen et al 2024 A comparative framework to develop transferable SDMs.pdf'> \[PDF\]</a>
+**Cullen JA**, Domit C, Lamont MM, Marshall CD, Santos AJB, Sasso CR, Al Ansi M, Hart KM, Fuentes MMPB. (2024). A comparative framework to develop transferable species distribution models for animal telemetry data. *Ecosphere*, 15:e70136. <https://doi.org/10.1002/ecs2.70136>. <a href='Cullen et al 2024 A comparative framework to develop transferable SDMs.pdf'> \[PDF\]</a>
 
 **Cullen JA**, Marshall CD. (2024). Scaling of bite force corresponds with ontogenetic niche shifts in coastal elasmobranchs. *Frontiers in Marine Science*, 11:1452984. <https://doi.org/10.3389/fmars.2024.1452984>. <a href='Cullen and Marshall 2024 shark bite force scaling and trophic niches.pdf'> \[PDF\]</a>
 

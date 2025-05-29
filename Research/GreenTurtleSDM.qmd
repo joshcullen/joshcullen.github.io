@@ -5,6 +5,10 @@ format: html
 
 ## Ecological niches and habitat selection
 
+::: {.callout-note}
+This research has been published in the Open Access journal *Ecosphere* following peer review (<https://doi.org/10.1002/ecs2.70136>).
+:::
+
 Characterizing the distributions of animals over space and time is fundamental to the field of ecology, especially to understand relationships with biotic (e.g., predators, prey) and abiotic (e.g., temperature, water depth, wind speed) variables (Leibold, 1995). This includes topics related to which species can be found together in the same areas (Chase, 2003; Saito et al., 2021), the spread and persistence of invasive species (Latimer et al., 2009; Peterson, 2003), as well as the factors that influence a species' ecological niche (Hutchinson, 1957; Matthiopoulos et al., 2023). The [**ecological niche**]{.underline} is comprised of all resources (biotic and abiotic) that represent how an animal interacts with its environment, but is commonly studied from the perspective of *habitat use* and *food web interactions*.
 
 [![Source: Bear et al. 2022; modified from Williams, 1983. This diagram shows differences in habitat and environmental preferences across multiple lizard species.](https://cdn.kastatic.org/ka-perseus-images/41d25869ec0e8498de31642d8a180679299b80a8.png)](http://cnx.org/contents/24nI-KJ8@24.18:lGjgOeNc@8/Community-Ecology)
