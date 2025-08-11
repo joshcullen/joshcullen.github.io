@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://joshcullen.github.io/Research/GreenTurtleSDM.html</loc>
+    <lastmod>2025-08-11T00:04:09.174Z</lastmod>
+  </url>
+  <url>
     <loc>https://joshcullen.github.io/Publications/index.html</loc>
-    <lastmod>2025-08-04T00:04:12.954Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joshcullen.github.io/Workshops/Intro_to_Shiny.html</loc>
-    <lastmod>2025-08-04T00:04:13.024Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joshcullen.github.io/Research/index.html</loc>
-    <lastmod>2025-08-04T00:04:12.955Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joshcullen.github.io/index.html</loc>
-    <lastmod>2025-08-04T00:04:13.339Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joshcullen.github.io/cv.html</loc>
-    <lastmod>2025-08-04T00:04:13.031Z</lastmod>
+    <lastmod>2025-08-11T00:04:09.174Z</lastmod>
   </url>
   <url>
     <loc>https://joshcullen.github.io/software_shiny.html</loc>
-    <lastmod>2025-08-04T00:04:13.341Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joshcullen.github.io/Research/GreenTurtleSDM.html</loc>
-    <lastmod>2025-08-04T00:04:12.955Z</lastmod>
+    <lastmod>2025-08-11T00:04:09.558Z</lastmod>
   </url>
   <url>
     <loc>https://joshcullen.github.io/Workshops/index.html</loc>
-    <lastmod>2025-08-04T00:04:13.024Z</lastmod>
+    <lastmod>2025-08-11T00:04:09.242Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joshcullen.github.io/Workshops/Intro_to_Shiny.html</loc>
+    <lastmod>2025-08-11T00:04:09.242Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joshcullen.github.io/cv.html</loc>
+    <lastmod>2025-08-11T00:04:09.250Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joshcullen.github.io/index.html</loc>
+    <lastmod>2025-08-11T00:04:09.556Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joshcullen.github.io/Research/index.html</loc>
+    <lastmod>2025-08-11T00:04:09.174Z</lastmod>
   </url>
 </urlset>
