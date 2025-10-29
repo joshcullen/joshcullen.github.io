@@ -6,6 +6,7 @@ title: "Workshops & Other Resources "
 
 ### Git and GitHub
 
+-   [Automate Tasks with GitHub Actions](https://joshcullen.github.io/github_actions_workshop/) (2025)
 -   [Using Git and GitHub with RStudio](https://www.youtube.com/watch?v=6TTo6CAx7mk) (2022)
 
 ### Shiny and Leaflet
