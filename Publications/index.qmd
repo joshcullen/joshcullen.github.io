@@ -4,7 +4,7 @@ title: "Publications"
 
 ## 2025
 
-**Cullen JA**, Santos AJB, White JW, Komoroske LM, Stahelin G, Fuentes MMPB. (in press). Method selection and temporal scale greatly influence ecological inferences on estimated animal behavior states. *Animal Biotelemetry*.
+**Cullen JA**, Santos AJB, White JW, Komoroske LM, Stahelin G, Fuentes MMPB. (2025). Method selection and temporal scale greatly influence ecological inferences on estimated animal behavior states. *Animal Biotelemetry*. 13:39. <https://doi.org/10.1186/s40317-025-00434-0>. <a href='Cullen et al 2025 behavioral state method and time step comparison.pdf'> \[PDF\]</a>
 
 **Cullen JA**, Masto NM, Sullivan JD, Highway CJ, Patyk KA, McCool MJ, Torchetti MK, Lantz K, Poulson, RL, Carter DL, Feddersen JC, Cohen BS, Prosser DJ. (2025). Spatiotemporal Overlap of Mallards with Poultry Farms is Associated With Greater Risk of Avian Influenza Wild Bird Spillover Events. *Ecology and Evolution*, 15(10):e72221. <https://doi.org/10.1002/ece3.72221>. <a href='Cullen et al 2025 spatiotemporal overlap of mallards with poultry farms HPAI.pdf'> \[PDF\]</a>
 
