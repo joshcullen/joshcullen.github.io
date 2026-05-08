@@ -5,12 +5,12 @@ project:
 website:
   title: "Josh Cullen"
   site-url: https://joshcullen.github.io
-  announcement:
-    icon: info-circle
-    dismissable: true
-    content: "**Alert** - [Intro to GitHub Actions Workshop](https://joshcullen.github.io/github_actions_workshop/) video recording and materials now available."
-    type: success
-    position: below-navbar
+  # announcement:
+  #   icon: info-circle
+  #   dismissable: true
+  #   content: "**Alert** - [Intro to GitHub Actions Workshop](https://joshcullen.github.io/github_actions_workshop/) video recording and materials now available."
+  #   type: success
+  #   position: below-navbar
   navbar:
     left:
       - href: index.qmd
