@@ -85,15 +85,24 @@ arabgulf.extent <- data.frame(xmin = 47.5,
                               ymax = 30.5)
 
 
-# Determine latest date of data available for NPP and SST
+### Determine latest date of data available for NPP and SST
+
+# Mask your script as a standard web browser to bypass NOAA's bot-filters
+options(HTTPUserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+
+# Define URLs for metadata
 npp.url_meta <- "https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1ppmday.nccsvMetadata"
 sst.url_meta <- "https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41mday.nccsvMetadata"
 
-npp.metadata <- read.csv(npp.url_meta)
+# Explicitly open a connection using libcurl
+npp_con <- url(npp.url_meta, method = "libcurl")
+sst_con <- url(sst.url_meta, method = "libcurl")
+
+npp.metadata <- read.csv(npp_con)
 npp.date <- npp.metadata |> 
   filter(Conventions == 'time_coverage_end') |> 
   pull(3)
-sst.metadata <- read.csv(sst.url_meta)
+sst.metadata <- read.csv(sst_con)
 sst.date <- sst.metadata |> 
   filter(Conventions == 'time_coverage_end') |> 
   pull(3)
