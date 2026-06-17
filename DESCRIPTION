@@ -18,7 +18,7 @@ Imports:
     tidyr,
     leaflet,
     leafem,
-    terra (== 1.9-1),
+    terra,
     RCurl,
     cmocean,
     viridis,

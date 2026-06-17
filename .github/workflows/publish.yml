@@ -33,6 +33,8 @@ jobs:
         with:
           cache: always
           cache-version: 2
+          extra-packages: |
+            cran::terra@1.9-1
         
       - name: Install INLA
         run: |
