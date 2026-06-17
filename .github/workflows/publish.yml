@@ -32,6 +32,7 @@ jobs:
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
           cache: always
+          cache-version: 2
         
       - name: Install INLA
         run: |
