@@ -22,6 +22,7 @@ Imports:
     RCurl,
     cmocean,
     viridis,
-    rmarkdown
+    rmarkdown,
+    rerddap
 Remotes:
     r-spatial/leafem
