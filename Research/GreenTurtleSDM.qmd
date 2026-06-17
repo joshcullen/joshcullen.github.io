@@ -54,6 +54,7 @@ library(terra)
 library(RCurl)
 library(cmocean)
 library(viridis)
+library(rerddap)
 
 source("leaflet_utils.R")  #helper functions
 
@@ -112,9 +113,35 @@ if (npp.date == sst.date) {
 
 
 ### SST ###
-nwa.sst <- rast(sst.url(date = rast.date, extent = nwa.extent))
-satlantic.sst <- rast(sst.url(date = rast.date, extent = satlantic.extent))
-arabgulf.sst <- rast(sst.url(date = rast.date, extent = arabgulf.extent))
+sst_info <- info("jplMURSST41mday", url = "https://coastwatch.pfeg.noaa.gov/erddap/")
+
+nwa.sst <- griddap(
+    sst_info,
+    fields = "sst",
+    time = c("2026-04-16", "2026-04-16"),
+    latitude = nwa.extent[3:4],
+    longitude = nwa.extent[1:2],
+    fmt = "nc"
+) |>
+  (\(x) rast(x$summary$filename))()
+satlantic.sst <- griddap(
+    sst_info,
+    fields = "sst",
+    time = c("2026-04-16", "2026-04-16"),
+    latitude = satlantic.extent[3:4],
+    longitude = satlantic.extent[1:2],
+    fmt = "nc"
+) |>
+  (\(x) rast(x$summary$filename))()
+arabgulf.sst <- griddap(
+    sst_info,
+    fields = "sst",
+    time = c("2026-04-16", "2026-04-16"),
+    latitude = arabgulf.extent[3:4],
+    longitude = arabgulf.extent[1:2],
+    fmt = "nc"
+) |>
+  (\(x) rast(x$summary$filename))()
 
 
 
@@ -132,12 +159,35 @@ arabgulf.bathym <- get_elev(rast(ext(unlist(arabgulf.extent)), crs = crs(arabgul
 
 
 ### NPP ###
-nwa.npp <- rast(npp.url(date = rast.date, extent = nwa.extent)) #|> 
-  # flip()
-satlantic.npp <- rast(npp.url(date = rast.date, extent = satlantic.extent)) #|> 
-  # flip()
-arabgulf.npp <- rast(npp.url(date = rast.date, extent = arabgulf.extent)) #|> 
-  # flip()
+npp_info <- info("erdMH1ppmday", url = "https://coastwatch.pfeg.noaa.gov/erddap/")
+
+nwa.npp <- griddap(
+    npp_info,
+    fields = "productivity",
+    time = c("2026-04-16", "2026-04-16"),
+    latitude = nwa.extent[3:4],
+    longitude = nwa.extent[1:2],
+    fmt = "nc"
+) |>
+  (\(x) rast(x$summary$filename))()
+satlantic.npp <- griddap(
+    npp_info,
+    fields = "productivity",
+    time = c("2026-04-16", "2026-04-16"),
+    latitude = satlantic.extent[3:4],
+    longitude = satlantic.extent[1:2],
+    fmt = "nc"
+) |>
+  (\(x) rast(x$summary$filename))()
+arabgulf.npp <- griddap(
+    npp_info,
+    fields = "productivity",
+    time = c("2026-04-16", "2026-04-16"),
+    latitude = arabgulf.extent[3:4],
+    longitude = arabgulf.extent[1:2],
+    fmt = "nc"
+) |>
+  (\(x) rast(x$summary$filename))()
 
 
 

@@ -2,6 +2,12 @@
 title: "Publications"
 ---
 
+## 2026
+
+Santos AJB, **Cullen JA**, Ventura RNMS, Komoroske L, White JW, Fuentes MMPB. (2026). Satellite tags reveal mixed resident and migratory strategies in breeding male green sea turtles. *Marine Ecology Progress Series*, 786:meps15148. <https://doi.org/10.3354/meps15148>.
+
+Harvey J, Gonnerman M, Yin S, Kent C, **Cullen J**, Sullivan JD, Dain JB, Hill NJ, Prosser DJ, Mullinax JM. Feathers and Flu: Identifying Data Gaps in Avian Influenza Host Dynamics to Prioritize Wildlife Conservation. (2026). *Wildlife Monographs*. e70015. <https://doi.org/10.1002/wmon.70015>. <a href='Harvey et al 2026 identifying data gaps in avian influenza host dynamics.pdf'> \[PDF\]</a>
+
 ## 2025
 
 Welch H, Holycross BM, Cluett AA, Jacox MG, Braby CE, Callahan MW, **Cullen JA**, Farchadi N, Seary R, Watson JT, Bograd SJ, Hazen EL. (2025). Fishing fleets as ecosystem sentinels. *Proceedings of the National Academy of Sciences*. 122(52):e2516308122. <https://doi.org/10.1073/pnas.2516308122>. <a href='Welch et al 2025 fishing fleets as ecosystem sentinels.pdf'> \[PDF\]</a>
