@@ -17,6 +17,7 @@ title: "Workshops & Other Resources "
 
 ### Animal Movement and Spatial Ecology
 
+-   [Advanced Animal Movement Modelling](https://joshcullen.github.io/advanced_animal_movement_workshop/) (2026)
 -   [Southeast Invasive Species Expert Elicitation](https://joshcullen.github.io/invasive_spp_expert_elicitation/) (2022)
 -   [Space-Use and Behavioral State Estimation](https://joshcullen.github.io/Behavior_and_SpaceUse_Workshop/) (2022)
 
